@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
 import React from 'react';
 import { Button, Slider, Stack } from '@mui/material';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const steps = [
     '/images/photo/photo1113.jpg',
@@ -22,8 +24,8 @@ export default function StepBanner() {
         }
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
     };
-    const handleChange = (e: Event, n: number) => {
-        setActiveStep(n);
+    const handleChange = (e: Event, value: number, activeThumb: number) => {
+        setActiveStep(value);
     }
     return (
         <Box sx={{ height: '30%', width: '100%' }}>
@@ -33,7 +35,7 @@ export default function StepBanner() {
 
             <Box sx={{ width: 300, marginLeft: 'auto', marginRight: 'auto' }}>
                 <Stack direction={"row"} spacing={2}>
-                    <Button onClick={handleBack}>&lt;</Button>
+                    <Button onClick={handleBack}><ArrowBackIosNewIcon /></Button>
                     <Slider aria-label="Temperature"
                         value={activeStep}
                         valueLabelDisplay="off"
@@ -43,7 +45,7 @@ export default function StepBanner() {
                         max={1}
                         onChange={handleChange}
                     />
-                    <Button onClick={handleNext}>&gt;</Button>
+                    <Button onClick={handleNext}><ArrowForwardIosIcon /></Button>
                 </Stack>
             </Box>
         </Box>

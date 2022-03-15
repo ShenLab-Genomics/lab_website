@@ -1,0 +1,17 @@
+[
+    {
+        "name": "HPC cluster",
+        "detail": "10.39.2.25",
+        "url": "http://10.39.2.25"
+    },
+    {
+        "name": "Paletton",
+        "detail": "For color design",
+        "url": "https://paletton.com/"
+    },
+    {
+        "name": "Biorender",
+        "detail": "Create Professional Science Figures in Minutes",
+        "url": "https://biorender.com/"
+    }
+]

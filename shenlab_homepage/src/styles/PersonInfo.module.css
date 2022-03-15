@@ -1,11 +1,15 @@
 .photodiv{
-    max-width:450px;
-    height:auto;
+    /* max-width:450px; */
+    height:300px;
     position: block;
     object-fit: contain;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.photo{
-    max-width: 300px;
+.photodiv .img_grid{
+    align-self: center;
+}
+.photodiv img{
+    max-width:90%;
+    max-height:90%;
 }

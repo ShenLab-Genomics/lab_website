@@ -10,32 +10,32 @@ function PersonInfo1(props) {
 }
 const PersonInfo = ({ props }) => (
     <span>
-        <div className={style.photodiv}>
-            <Card><CardContent sx={{ display: 'flex', alignItems: 'center' }}>
-                <Grid container direction="row" spacing={2}>
-                    <Grid item xs={6} >
+        {/* <div className={style.photodiv}> */}
+        <Card className={style.photodiv} sx={{ backgroundColor: '#d5d5d520' }}>
+            <CardContent sx={{ display: 'flex', alignItems: 'center' }}>
+                <Grid container direction="row" spacing={0}>
+                    <Grid className={style.img_grid} item xs={8} >
                         {props.photo && (
                             <img className={style.photo} src={props.photo} />
                         )}
                     </Grid>
-                    <Grid item xs={6}>
-                        <Divider orientation="vertical" flexItem />
-                        <Grid item xs container direction="column" spacing={2}>
-                            <Grid item>
-                                <Typography variant='h5' sx={{ display: 'inline-block' }}>{props.name} </Typography>
-                                <Typography variant='p'>  {props.class}</Typography>
-                            </Grid>
-                            <Grid item>
-                                {props.email ? (<Typography variant='p'>Email: {props.email}</Typography>) : null}
-                                <br />
-                                {props.interest ? (<Typography variant='p'>Research interest: {props.interest}</Typography>) : null}
-                            </Grid>
+                    {/* <Grid item xs={4}> */}
+                    <Grid item xs={4} container direction="column" spacing={2}>
+                        <Grid item>
+                            <Typography variant='h5' sx={{ display: 'inline-block' }}>{props.name} </Typography>
+                            <Typography variant='p'>  {props.class}</Typography>
+                        </Grid>
+                        <Grid item>
+                            {props.email ? (<Typography variant='p'>Email: {props.email}</Typography>) : null}
+                            <br />
+                            {props.interest ? (<Typography variant='p'>Research interest: {props.interest}</Typography>) : null}
                         </Grid>
                     </Grid>
+                    {/* </Grid> */}
                 </Grid>
             </CardContent>
-            </Card>
-        </div>
+        </Card>
+        {/* </div> */}
         <br />
     </span >
 )
