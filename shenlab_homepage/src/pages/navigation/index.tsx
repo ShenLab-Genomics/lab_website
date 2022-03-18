@@ -11,7 +11,7 @@ import { GetCardsList } from '@server/lib/get_link_cards.js';
 import { LinkCard, LinkCardProps } from "@src/components/LinkCard";
 import Divider from "@mui/material/Divider";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const memberList = GetCardsList();
     return {
         props: {
@@ -27,7 +27,7 @@ function Home({ memberList }: any) {
                 <Typography variant="h2">Some Links</Typography>
                 <Divider sx={{ marginTop: '30px', marginBottom: '30px' }} />
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                    {memberList.map((item: any) => (<LinkCard props={item as LinkCardProps} />))}
+                    {memberList.map((item: any, index: number) => (<LinkCard props={item as LinkCardProps} key={index} />))}
                 </Grid>
             </Box>
         </Container>

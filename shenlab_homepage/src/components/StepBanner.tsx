@@ -6,14 +6,11 @@ import { Button, Slider, Stack } from '@mui/material';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-const steps = [
-    '/images/photo/photo1113.jpg',
-    '/images/photo/photo1.png',
-]
-export default function StepBanner() {
+export default function StepBanner(props: any) {
     const [activeStep, setActiveStep] = React.useState(0);
+    const steps = props.list;
     const handleNext = () => {
-        if (activeStep >= 1) {
+        if (activeStep >= steps.length - 1) {
             return;
         }
         setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -24,8 +21,8 @@ export default function StepBanner() {
         }
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
     };
-    const handleChange = (e: Event, value: number, activeThumb: number) => {
-        setActiveStep(value);
+    const handleChange = (event: Event, value: number | number[], activeThumb: number) => {
+        setActiveStep(value as number);
     }
     return (
         <Box sx={{ height: '30%', width: '100%' }}>
@@ -42,7 +39,7 @@ export default function StepBanner() {
                         step={1}
                         marks
                         min={0}
-                        max={1}
+                        max={steps.length - 1}
                         onChange={handleChange}
                     />
                     <Button onClick={handleNext}><ArrowForwardIosIcon /></Button>

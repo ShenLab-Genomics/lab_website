@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 import Link from 'next/link';
-import { GetSortedPostsData } from '@server/lib/test_table'
+import { GetSortedPostsData } from '@server/lib/get_news_list'
 
 const PostLink = (props) => (
     <Link href={`/post?id=${props.id}`}>

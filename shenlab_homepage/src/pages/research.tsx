@@ -4,7 +4,7 @@ const Contact = () => (
     <Layout>
         <h2>Research</h2>
         {/* <img src='/images/mindpic1.png'></img> */}
-        <p>We are a genomics and bioinformatics research group at Zhejiang University Medical Center in Hangzhou, China. Our research combines 'wet-lab' experiments, computational meta-data analysis, and machine learning algorithms. Our research areas are:</p>
+        <p>We are a genomics and bioinformatics research group at Zhejiang University Medical Center in Hangzhou, China. Our research combines &apos;wet-lab&apos; experiments, computational meta-data analysis, and machine learning algorithms. Our research areas are:</p>
         <hr />
         <p><b>1. Computational algorithm and bioinformatics tool development to guide experimental design or make better use of different types of omics data.</b></p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;We are fascinated by the omics view of life. As sequencing technologies quickly advance, we are facing with the challenge of interpreting omics big data. One of the major efforts in the lab is to develop computational algorithms and bioinformatics tools customized for both the underlying biology and data type of interest. We have developed methods for high precision detection of somatic mutations directly from scRNA-seq data, and highly sensitive gene fusion detection algorithms that outperforms the targeted sequencing approach. We are amazed by how much room of improvement there is and how badly such methods and tools are needed.</p>

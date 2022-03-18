@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import { GetSortedPostsData } from '@server/lib/get_news_list'
+import { GetBannerList } from '@server/lib/get_banner_list'
 import StepBanner from '@src/components/StepBanner'
 
 const PostLink = (props: any) => (
@@ -9,12 +10,13 @@ const PostLink = (props: any) => (
         <a>{props.title}</a>
     </Link>
 )
-
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const allPostsData = GetSortedPostsData();
+    const picList = GetBannerList();
     return {
         props: {
-            allPostsData
+            allPostsData,
+            picList
         }
     }
 }
@@ -23,7 +25,7 @@ export function Home(props: any) {
     return (
         <Layout>
             <div className="one-col separator">
-                <StepBanner />
+                <StepBanner list={props.picList} />
             </div>
             <div className="one-col separator">
                 <div className="col">
@@ -34,7 +36,7 @@ export function Home(props: any) {
                         &nbsp;3. To predict and screen drug targets for Rare diseases or cancer and diagnosis biomarkers.<br />
                         &nbsp;4. To develop nucleic acid therapy and small molecule therapy for diseases such as rare genetic diseases.<br />
                         <br />
-                        We're located at the  Zhejiang University Medical Center in 1369 Wenyixi Road, Yuhang , Hangzhou, Zhejiang.</p>
+                        We&apos;re located at the  Zhejiang University Medical Center in 1369 Wenyixi Road, Yuhang , Hangzhou, Zhejiang.</p>
                 </div>
                 <div><br /><br /></div>
             </div>
