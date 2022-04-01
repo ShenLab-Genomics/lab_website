@@ -9,15 +9,23 @@ export async function getServerSideProps() {
         props: {
             teachers: memberList['teacher'],
             students: memberList['student'],
+            workers: memberList['worker'],
         }
     }
 }
 
 const Members = (props) => (
     <Layout>
-        <h2>Members</h2>
+        <h1>Members</h1>
         <Grid container spacing={2}>
             {props.teachers.map((item, index) => (
+                <Grid item xs={6} key={index}>
+                    <PersonInfo props={item} />
+                </Grid>
+            ))}
+        </Grid>
+        <Grid container columnSpacing={2} rowSpacing={0}>
+            {props.workers.map((item, index) => (
                 <Grid item xs={6} key={index}>
                     <PersonInfo props={item} />
                 </Grid>

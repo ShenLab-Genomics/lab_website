@@ -1,10 +1,27 @@
 {
     "teacher": [
         {
-            "name": "沈宁",
-            "class": "PI",
+            "name": "Ning Shen",
+            "class": "Principle Investigator",
             "photo": "/images/photo/person/shenning.png",
             "email": "shenningzju@zju.edu.cn"
+        }
+    ],
+    "worker": [
+        {
+            "name": "Tianyun Zhang",
+            "class": "RA",
+            "photo": "/images/photo/person/tianyun.jpg"
+        },
+        {
+            "name": "Jinzhao Liang",
+            "class": "RA",
+            "photo": "/images/photo/person/jinzhao.jpg"
+        },
+        {
+            "name": "Dandan Hu",
+            "class": "Administrative Coordinator",
+            "photo": "/images/photo/person/dandan.jpg"
         }
     ],
     "student": [
@@ -20,23 +37,18 @@
         },
         {
             "name": "贾晗颖",
-            "class": "PhD",
+            "class": "PhD student",
             "photo": "/images/photo/person/hanying.jpeg"
         },
         {
             "name": "赵晓阳",
-            "class": "PhD",
+            "class": "PhD student",
             "photo": "/images/photo/person/xiaoyang.jpeg"
         },
         {
             "name": "游宁远",
-            "class": "Undergraduate",
+            "class": "Undergraduate student",
             "photo": "/images/photo/person/ningyuan.jpg"
-        },
-        {
-            "name": "张天韵",
-            "class": "RA",
-            "photo": "/images/photo/person/tianyun.jpg"
         }
     ]
 }

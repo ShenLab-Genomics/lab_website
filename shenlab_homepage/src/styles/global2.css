@@ -149,7 +149,7 @@ div.one-col div.col {
 }
 
 div.two-col div.col {
-    width: 465px;
+    /* width: 465px; */
     float: left;
     margin-right: 30px;
 }
