@@ -15,7 +15,10 @@ const Contact = () => (
         <p><b>3. Computational guided diagnosis and drug development for Rare Genetic diseases.</b></p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;We are committed to the precision medicine for rare genetic disease, both in terms of precise diagnosis and the development of therapeutic strategies. Built upon close collaboration with several hospitals, we are continuing to collect sequencing data of rare diseases patients, and to develop a series of algorithms to improve the genetic diagnosis. Meantime, we have built in-house iPSC differentiation protocols as our drug screening platform. Based on our computationally guided drug design, we firmly believe that fast and precise diagnosis and therapeutics that is customized for individual patients, will be achievable. </p>
         <hr />
-        <img src='/images/mindpic2.jpg' height={420}></img>
+        <div align="center">
+            <img src='/images/mindpic2.jpg' height={420}></img>
+            <img src='/images/team2.png' height={458}></img>
+        </div>
     </Layout>
 )
 export default Contact

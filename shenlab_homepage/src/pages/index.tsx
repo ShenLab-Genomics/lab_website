@@ -27,35 +27,35 @@ export function Home(props: any) {
             <div className="one-col separator">
                 <StepBanner list={props.picList} />
             </div>
-            <div className="one-col separator">
+            <div className="two-col separator">
                 <div className="col">
                     <h2>Welcome to the Shen&apos;s Lab</h2>
                     <p>
-                        Dr. Ning Shen received her B.S. majoring in Biological Science from Fudan University in 2010,
-                        followed by a Ph.D. in Pharmacology with a Certificate in Computational Biology from Duke University in 2016.
-                        After her PhD, she joined Fulcrum Therapeutics as computational biologist.
+                        We are a genomics and bioinformatics research group at Zhejiang University Medical Center.
+                        We are also part of the Undiagnosed Disease Division of Liangzhu Laboratory,
+                        The First Affiliated Hospital in College of Medicine of Zhejiang University,
+                        and Zhejiang University Medical School.
                     </p>
                     <p>
-                        During her industry work, she developed drug target identification algorithms for rare diseases,
-                        which was recommended by Professor James Collins at MIT, a world well-known scientist holding members of five American Academies,
-                        and was applied to several disease projects of the company.
-                        In particular, she worked on FSHD drug development from early screening all the way to phase II clinical trials.
+                        Our lab combines “wet-lab” experiments and “dry-lab” computational work.
+                        Our aim is to empower precision medicine through computational and statistical analysis of various omics data.
+                        We are particularly interested in genetic diagnosis and personalized therapeutic development for rare diseases.
                     </p>
                     <p>
-                        As one of the inventors, more than 20 international patents have been declared, 5 of which have been granted by the United States,
-                        Canada, Japan and other countries.
-                        In 2019, she joined the Park Lab in the department of Biomedical Informatics at Harvard Medical School as research fellow.
-                        In March 2021, Dr. Shen started her faculty position as principal investigator at Zhejiang University Medical Center in Hangzhou, China.
-                    </p>
-                    <p>
-                        Up to now, she has published 9 papers in top journals like Molecular Cell, PNAS, Cell Systems.
-                        Her first author papers have received commentary from the same issue of PNAS, and recommended by F1000 Prime Peers.
-                        Her research areas focus on pharmacogenomics, bioinformatics and regulatory genomics.
+                        We collaborate closely with clinicians and computer science research groups.
+                        Our team is interdisciplinary and team members work closely with each other.
+                        We believe Together Everyone Achieves More (TEAM)!
+                        We are always seeking for motivated and talented research scientists, postdocs, and PhD students.
+                        Please do not hesitate to contact us if interested!
+
                     </p>
                 </div>
-                <div><br /><br /></div>
+
+                <div className="col last">
+                    <img className="bg1" src="images/background1.jpg" alt="monkeyman" height="450" width="450" />
+                </div>
             </div>
-            <div className="two-col separator">
+            <div className="one-col separator">
                 <div className="col">
                     <h2>Lab News</h2>
                     <ul>
@@ -65,9 +65,6 @@ export function Home(props: any) {
                             </li>
                         ))}
                     </ul>
-                </div>
-                <div className="col last">
-                    <img src="images/evolution.png" alt="monkeyman" height="106" width="300" />
                 </div>
             </div>
             <footer>
