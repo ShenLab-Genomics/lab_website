@@ -3,8 +3,9 @@
     padding:0.75rem;
 }
 .row li{
+    margin-left: 5%;
     flex:none;
-    width: 75%;
+    width: 90%;
 }
 .row div{
     display: inline-block;
