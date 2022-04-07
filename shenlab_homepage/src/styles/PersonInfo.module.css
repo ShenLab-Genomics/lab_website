@@ -1,6 +1,6 @@
 .photodiv{
     /* max-width:450px; */
-    height:300px;
+    height:240px;
     position: block;
     object-fit: contain;
     margin-top: 20px;
@@ -10,6 +10,23 @@
     align-self: center;
 }
 .photodiv img{
+    max-width:90%;
+    max-height:90%;
+}
+
+.photodiv_small{
+    /* max-width:450px; */
+    height:350px;
+    position: block;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.photodiv_small .img_grid{
+    min-height: 260px;
+    align-self: center;
+}
+.photodiv_small img{
     max-width:90%;
     max-height:90%;
 }

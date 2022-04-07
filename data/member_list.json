@@ -1,5 +1,5 @@
 {
-    "teacher": [
+    "PI": [
         {
             "name": "Ning Shen",
             "class": "Principle Investigator",
@@ -7,48 +7,60 @@
             "email": "shenningzju@zju.edu.cn"
         }
     ],
-    "worker": [
-        {
-            "name": "Tianyun Zhang",
-            "class": "RA",
-            "photo": "/images/photo/person/tianyun.jpg"
-        },
-        {
-            "name": "Jinzhao Liang",
-            "class": "RA",
-            "photo": "/images/photo/person/jinzhao.jpg"
-        },
+    "worker1": [
         {
             "name": "Dandan Hu",
             "class": "Administrative Coordinator",
-            "photo": "/images/photo/person/dandan.jpg"
+            "photo": "/images/photo/person/dandan.jpg",
+            "email": "niwotayang@126.com"
         }
     ],
-    "student": [
+    "worker2": [
         {
-            "name": "吕林",
+            "name": "Tianyun Zhang",
+            "class": "Technician",
+            "photo": "/images/photo/person/tianyun.jpg",
+            "email": "0921158@zju.edu.cn"
+        },
+        {
+            "name": "Jinzhao Liang",
+            "class": "Technician",
+            "photo": "/images/photo/person/jinzhao.jpg",
+            "email": "jinzhaoneuro@gmail.com"
+        }
+    ],
+    "student1": [
+        {
+            "name": "Lin Lv",
             "class": "Postdoc",
-            "photo": "/images/photo/person/lvlin.jpeg"
+            "photo": "/images/photo/person/lvlin2.png",
+            "email": "Lvlin91@126.com"
         },
         {
             "name": "Md Asif Ahsan",
             "class": "Postdoc",
-            "photo": "/images/photo/person/asif.jpg"
-        },
+            "photo": "/images/photo/person/asif.jpg",
+            "email": "asif@zju.edu.cn"
+        }
+    ],
+    "student2": [
         {
-            "name": "贾晗颖",
+            "name": "Hanying Jia",
             "class": "PhD student",
-            "photo": "/images/photo/person/hanying.jpeg"
+            "photo": "/images/photo/person/hanying.jpeg",
+            "email": "452182628@qq.com"
         },
         {
-            "name": "赵晓阳",
+            "name": "Xiaoyang Zhao",
             "class": "PhD student",
-            "photo": "/images/photo/person/xiaoyang.jpeg"
+            "photo": "/images/photo/person/xiaoyang.jpeg",
+            "email": "376357153@qq.com"
         },
         {
-            "name": "游宁远",
+            "name": "Ningyuan You",
             "class": "Undergraduate student",
-            "photo": "/images/photo/person/ningyuan.jpg"
+            "photo": "/images/photo/person/ningyuan2.png",
+            "email": "3180105261@zju.edu.cn"
         }
     ]
 }

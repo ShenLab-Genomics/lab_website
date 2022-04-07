@@ -2,10 +2,28 @@ import style from '../styles/PersonInfo.module.css'
 import Card from '@mui/material/Card'
 import { CardContent, Divider, Grid, Typography } from '@mui/material';
 import Layout from './Layout';
-function PersonInfo1(props) {
-    console.log(props);
+export function PersonInfoSmall({ props }) {
     return (
-        <p>1</p>
+        <Card className={style.photodiv_small} sx={{ backgroundColor: '#d5d5d520' }}>
+            <CardContent sx={{ display: 'flex', alignItems: 'center' }}>
+                <Grid container direction="column" spacing={0}>
+                    <Grid className={style.img_grid}>
+                        {props.photo && (
+                            <img className={style.photo1} src={props.photo} />
+                        )}
+                    </Grid>
+                    <Grid>
+                        <Typography variant='h5' sx={{ display: 'inline-block' }}>{props.name} </Typography>
+                        <br />
+                        {/* <Typography variant='p'>  {props.class}</Typography> */}
+                        {props.email ? (<Typography variant='p'>{props.email}</Typography>) : null}
+
+
+                    </Grid>
+
+                </Grid>
+            </CardContent>
+        </Card>
     )
 }
 const PersonInfo = ({ props }) => (
@@ -23,7 +41,7 @@ const PersonInfo = ({ props }) => (
                     <Grid item xs={4} container direction="column" spacing={2}>
                         <Grid item>
                             <Typography variant='h5' sx={{ display: 'inline-block' }}>{props.name} </Typography>
-                            <Typography variant='p'>  {props.class}</Typography>
+                            {/* <Typography variant='p'>  {props.class}</Typography> */}
                         </Grid>
                         <Grid item>
                             {props.email ? (<Typography variant='p'>Email: {props.email}</Typography>) : null}
@@ -39,4 +57,4 @@ const PersonInfo = ({ props }) => (
         <br />
     </span >
 )
-export default PersonInfo
+export default PersonInfo;
