@@ -27,9 +27,9 @@ export function Home(props: any) {
             <div className="one-col separator">
                 <StepBanner list={props.picList} />
             </div>
-            <div className="two-col separator">
-                <div className="col">
-                    <h2>Welcome to the Shen&apos;s Lab</h2>
+            <div className="one-col separator">
+                <div className="col-wide">
+                    <h2>About the lab</h2>
                     <p>
                         We are a genomics and bioinformatics research group at Zhejiang University Medical Center.
                         We are also part of the Undiagnosed Disease Division of Liangzhu Laboratory,
@@ -47,12 +47,7 @@ export function Home(props: any) {
                         We believe Together Everyone Achieves More (TEAM)!
                         We are always seeking for motivated and talented research scientists, postdocs, and PhD students.
                         Please do not hesitate to contact us if interested!
-
                     </p>
-                </div>
-
-                <div className="col last">
-                    <img className="bg1" src="images/background1.jpg" alt="monkeyman" height="450" width="450" />
                 </div>
             </div>
             <div className="one-col separator">

@@ -148,6 +148,23 @@ div.one-col div.col {
     width: 100%;
 }
 
+div.one-col div.col-wide{
+    margin-bottom: 9px;
+    width: 100%;
+    float: left;
+    background-position:right;
+    background-image:url(/images/background1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+div.col-wide p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
 div.two-col div.col {
     width: 465px;
     float: left;
@@ -211,6 +228,10 @@ div.two-col div.last,
 div.three-col div.last {
     margin-right: 0;
 }
+div.two-col .pic{
+    position: absolute;  
+    margin-left: 45%;
+}
 
 div.two-col .bg1{
     opacity:60%;
@@ -226,4 +247,10 @@ div.two-col .bg1{
 
 div.research-img{
     text-align: center;
+}
+
+.remark p{
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
 }
