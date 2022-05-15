@@ -18,6 +18,21 @@ const conference_Proceedings = [
 ]
 const Publish = () => (
     <Layout>
+        <h2>Preprint</h2>
+        <div className={styles.row}>
+            <li>
+                Tianyun Zhang, Ning Shen. Detecting expressed cancer somatic mutations from single-cell RNA sequencing data.
+
+                <a href="https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3">&nbsp;biorxiv</a>
+            </li>
+        </div>
+        <div className={styles.row}>
+            <li>
+                Lin Lv, Tianyun Zhang, Yanyan Zhang, Asif Ahsan, Xiaoyang Zhao, Zhiqiang Shen, Teng Chen, Ning Shen. Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics.
+
+                <a href={"https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"}>&nbsp;biorxiv</a>
+            </li>
+        </div>
         <h2>Publications</h2>
         <div className={styles.row}>
             <li>
@@ -66,7 +81,7 @@ const Publish = () => (
         </div>
         <h2>Patents</h2>
         {patents.map((item, idx) => (<div className={styles.row} key={idx}><li>{item}</li></div>))}
-        <h2>Patents</h2>
+        <h2>Conference Proceedings</h2>
         {conference_Proceedings.map((item, idx) => (<div className={styles.row} key={idx}><li>{item}</li></div>))}
     </Layout>
 )
