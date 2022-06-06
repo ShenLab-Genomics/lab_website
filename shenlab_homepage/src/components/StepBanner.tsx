@@ -67,6 +67,7 @@ export default function StepBanner(props: any) {
                                             <Typography variant="body1" gutterBottom component="div">
                                                 {step.text}
                                             </Typography>
+                                            {step.link ? (<a href={step.link}> detail </a>) : null}
                                         </Box>
                                     </Stack>
                                 </Box>
