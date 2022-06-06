@@ -28,6 +28,9 @@ const HeadNavigation = () => (
                             <Link href="/publish"><a>Publications</a></Link>
                         </li>
                         <li>
+                            <Link href="/activities"><a>Lab Activities</a></Link>
+                        </li>
+                        <li>
                             <Link href="/contact"><a>Join us</a></Link>
                         </li>
                     </ul>
