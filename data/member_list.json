@@ -17,16 +17,16 @@
     ],
     "worker2": [
         {
-            "name": "Tianyun Zhang",
-            "class": "Technician",
-            "photo": "/images/photo/person/tianyun.jpg",
-            "email": "0921158@zju.edu.cn"
-        },
-        {
             "name": "Jinzhao Liang",
             "class": "Technician",
             "photo": "/images/photo/person/jinzhao.jpg",
             "email": "jinzhaoneuro@gmail.com"
+        },
+        {
+            "name": "Yanhong Feng",
+            "class": "Technician",
+            "photo": "",
+            "email": "18709486743@163.com"
         }
     ],
     "student1": [
@@ -58,9 +58,15 @@
         },
         {
             "name": "Ningyuan You",
-            "class": "Undergraduate student",
+            "class": "PhD student",
             "photo": "/images/photo/person/ningyuan2.png",
-            "email": "3180105261@zju.edu.cn"
+            "email": "12218150@zju.edu.cn"
+        },
+        {
+            "name": "Tianyun Zhang",
+            "class": "PhD student",
+            "photo": "/images/photo/person/tianyun.jpg",
+            "email": "12218151@zju.edu.cn"
         }
     ]
 }
