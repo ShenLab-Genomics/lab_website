@@ -25,21 +25,26 @@ const Contact = () => (
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;We are committed to the precision medicine for rare genetic disease, both in terms of precise diagnosis and the development of therapeutic strategies. Built upon close collaboration with several hospitals, we are continuing to collect sequencing data of rare diseases patients, and to develop a series of algorithms to improve the genetic diagnosis. Meantime, we have built in-house iPSC differentiation protocols as our drug screening platform. Based on our computationally guided drug design, we firmly believe that fast and precise diagnosis and therapeutics that is customized for individual patients, will be achievable. </p>
                     <hr />
                 </Box>
-                <Stack direction="row">
+                <Stack direction="column">
                     <Box>
                         <div className="research-img">
-                            <img src='/images/mindpic2.jpg' height={215}></img>
+                            <img src='/images/mindpic2.jpg' width={'100%'}></img>
+                            {/* <img src='/images/team2.png' height={458}></img> */}
+                        </div>
+                    </Box>
+                    <Box>
+                        <div className="research-img">
+                            <img src='/images/mindpic3.jpg' width={'100%'}></img>
                             {/* <img src='/images/team2.png' height={458}></img> */}
                         </div>
 
                     </Box>
-                    <Box>
-                        <img src='/images/mindpic3.jpg' height={430}></img>
-                    </Box>
                 </Stack>
                 <Stack direction="row" spacing={15}>
-                    <img src='/images/gif/20220911_212603_00_00_00-00_00_30.gif' height={240}></img>
-                    <img src='/images/gif/20220925_184835_00_00_00-00_00_30.gif' height={240}></img>
+                    <div className="research-img">
+                        <img src='/images/gif/20220911_212603_00_00_00-00_00_30.gif' height={280}></img>
+                        <img src='/images/gif/20220925_184835_00_00_00-00_00_30.gif' height={280}></img>
+                    </div>
                 </Stack>
             </Box>
         </Stack>
