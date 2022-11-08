@@ -25,7 +25,7 @@ const Contact = () => (
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;We are committed to the precision medicine for rare genetic disease, both in terms of precise diagnosis and the development of therapeutic strategies. Built upon close collaboration with several hospitals, we are continuing to collect sequencing data of rare diseases patients, and to develop a series of algorithms to improve the genetic diagnosis. Meantime, we have built in-house iPSC differentiation protocols as our drug screening platform. Based on our computationally guided drug design, we firmly believe that fast and precise diagnosis and therapeutics that is customized for individual patients, will be achievable. </p>
                     <hr />
                 </Box>
-                <Stack direction="column">
+                <Stack direction="row">
                     <Box>
                         <div className="research-img">
                             <img src='/images/mindpic2.jpg' width={'100%'}></img>
@@ -34,17 +34,25 @@ const Contact = () => (
                     </Box>
                     <Box>
                         <div className="research-img">
-                            <img src='/images/mindpic3.jpg' width={'100%'}></img>
+                            <img src='/images/mindpic3_1.jpg' width={'95%'}></img>
                             {/* <img src='/images/team2.png' height={458}></img> */}
                         </div>
 
                     </Box>
                 </Stack>
-                <Stack direction="row" spacing={15}>
-                    <div className="research-img">
-                        <img src='/images/gif/20220911_212603_00_00_00-00_00_30.gif' height={280}></img>
-                        <img src='/images/gif/20220925_184835_00_00_00-00_00_30.gif' height={280}></img>
-                    </div>
+                <Stack direction="row" >
+                    <Box>
+                        <div className="research-img">
+                            <img src='/images/gif/20221003_150915_00_00_00_00_00_30.gif' height={280}></img>
+                            <p>1:WT_IPSC  were differentiated with 12 μM CHIR99021 at day 0 and <br />2 μM Wnt-C59 at day 3 on a 12-well plate(D10)</p>
+                        </div>
+                    </Box>
+                    <Box>
+                        <div className="research-img">
+                            <img src='/images/gif/20220925_184835_00_00_00-00_00_30.gif' height={280}></img>
+                            <p>2:Morphology of hiPSC-CMs after 4 serial passages<br />  (hiPSC-CM differentiation)</p>
+                        </div>
+                    </Box>
                 </Stack>
             </Box>
         </Stack>
