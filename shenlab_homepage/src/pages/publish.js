@@ -26,14 +26,19 @@ const Publish = () => (
                 <a href="https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3">&nbsp;biorxiv</a>
             </li>
         </div>
-        <div className={styles.row}>
+        {/* <div className={styles.row}>
             <li>
                 Lin Lv, Tianyun Zhang, Yanyan Zhang, Asif Ahsan, Xiaoyang Zhao, Zhiqiang Shen, Teng Chen, Ning Shen. Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics.
 
                 <a href={"https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"}>&nbsp;biorxiv</a>
             </li>
-        </div>
+        </div> */}
         <h2>Publications</h2>
+        <div className={styles.row}>
+            <li>
+            Lv, L., Zhang, T.Y., Jia, H.Y., Zhang, Y.Y., Ahsan, A., Zhao, X.Y., Chen, T., Shen, Z.Q., Shen, N.(2022). Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics. <b>Frontiers in Immunology</b>. 13:995998
+            </li>
+        </div>
         <div className={styles.row}>
             <li>
                 Jin, Z., Huang, W., Shen, N., Li, J., Wang, X., Dong, J., Park, P.J., Xi, R. (2022). Single-cell gene fusion detection by scFusion. Nat Commun, 13(1084).
