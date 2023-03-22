@@ -6,7 +6,7 @@ const HeadNavigation = () => (
         <header>
             <div className={style.headl}>
                 <hgroup>
-                    <h1 className="header_logo">Shen Lab</h1>
+                    <h2 className={style.header_logo}>Shen Lab</h2>
                 </hgroup>
             </div>
             <div className={style.headr}>
@@ -28,7 +28,10 @@ const HeadNavigation = () => (
                             <Link href="/publish"><a>Publications</a></Link>
                         </li>
                         <li>
-                            <Link href="/activities"><a>Lab Activities</a></Link>
+                            <Link href="/tools"><a>Tools</a></Link>
+                        </li>
+                        <li>
+                            <Link href="/activities"><a>Activities</a></Link>
                         </li>
                         <li>
                             <Link href="/contact"><a>Join us</a></Link>
