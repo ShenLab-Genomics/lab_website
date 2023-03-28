@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAGPIE</title>
+    <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        background-color: #1c80e5;
+        color: white;
+        height: 60px;
+        padding: 0 20px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        text-decoration: none;
+      }
+      .logo img {
+        height: 40px;
+        margin-right: 10px;
+        line-height: 1;
+      }
+      /* .logo h1 {
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: -35px;
+      } */
+      .logo  h1{
+        font-size: 24px;
+        color: white;
+        margin-left: 20px;
+        line-height: 1;
+      }
+      .nav {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1;
+      }
+      .nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+      .nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="/images/asset/logo.png" alt="Logo">
+        <h1>MAGPIE: Multimodal Analysis Generated Pathogenic Impact Evaluator</h1>
+      </a>
+      <nav class="nav">
+        <a href="http://shenlab-genomics.org">Lab Homepage</a>
+        <a href="/biotools/about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <!-- 网页内容 -->
+    </main>
+  </body>
+
+  <head>
+    <title>Search SNVs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      .task body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+      }
+      .task h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .task div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .task button[type="file"] {
+        padding: 10px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        font-size: 16px;
+      }
+      .task button[type="button"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .task button[type="button"]:hover {
+        background-color: #3E8E41;
+      }
+      .task button[type="file"]:focus, input[type="button"]:focus {
+        outline: none;
+        border-color: #66afe9;
+        box-shadow: 0 0 5px #66afe9;
+      }
+      .task a {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 16px;
+      }
+      .task input[type="text"], button {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .task input[type="text"] {
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header class = 'task'>
+      <h1>Search SNVs</h1>
+      <div>
+        <!-- <label for="username">用户名：</label> -->
+        <input type="text" id="variant_info" placeholder="chr1:21575745-21575745-A-G">
+        <button type="button" onclick="getScore()">Search</button>
+      </div>
+      <div id="score"></div>
+      <script>
+        function getScore() {
+          var variant_info = document.getElementById("variant_info").value;
+          $.ajax({
+              url: 'http://10.39.15.171:5000/api/magpie/',
+              method: 'GET',
+              dataType: 'json',
+              data: variant_info,
+              async: true,
+              
+              success: res =>{
+                console.log(res)
+                },
+              error: err =>{
+                console.log(err)
+                },
+          });
+        }
+      </script>
+    </header>
+  </body>
+
+  <head>
+    <title>Task Submission</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .task body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+      }
+      .task h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .task form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .task input[type="file"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        font-size: 16px;
+      }
+      .task input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .task input[type="submit"]:hover {
+        background-color: #3E8E41;
+      }
+      .task a {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class = 'task'>
+      <h1 class = 'task'>Task Submission</h1>
+      <form class = 'task'>
+        <label for="file">Upload local vcf file</label>
+        <input type="file" id="file" name="file" class = 'task'>
+        <input type="submit" value="上传" class = 'task'>
+      </form>
+      <a href="#" id="download-link" style="display: none;" class = 'task'>下载文件</a>
+      <script>
+        const file_form = document.querySelector('form');
+        const downloadLink = document.querySelector('#download-link');
+    
+        // form.addEventListener('submit', async (event) => {
+        //   event.preventDefault();
+        //   const file = document.querySelector('#file').files[0];
+        //   const formData = new FormData();
+        //   formData.append('file', file);
+        //   const response = await fetch('/api/upload', {
+        //     method: 'POST',
+        //     body: formData
+        //   });
+        //   const result = await response.json();
+        //   downloadLink.href = `/api/download?filename=${result.filename}`;
+        //   downloadLink.style.display = 'block';32
+        // });
+      </script>
+    </header>
+  </body>
+</html>

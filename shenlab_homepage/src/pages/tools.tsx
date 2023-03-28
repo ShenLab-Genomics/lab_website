@@ -8,7 +8,7 @@ const Tools: NextPage = () => (
         <div className={styles.row}>
 
         <li>
-        <b>MAGPIE</b> <Link href="">Coming soon</Link>
+        <b>MAGPIE</b> <Link href="/biotools/index.html/"> MAGPIE</Link>
         </li>
         </div>
 

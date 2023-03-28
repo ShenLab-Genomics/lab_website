@@ -47,7 +47,7 @@
         {
             "name": "Hanying Jia",
             "class": "PhD student",
-            "photo": "/images/photo/person/hanying.jpeg",
+            "photo": "/images/photo/person/hanying3.jpg",
             "email": "452182628@qq.com"
         },
         {
@@ -67,6 +67,12 @@
             "class": "PhD student",
             "photo": "/images/photo/person/tianyun.jpg",
             "email": "12218151@zju.edu.cn"
+        },
+        {
+            "name": "Yicheng Liu",
+            "class": "PhD student",
+            "photo": "/images/photo/person/yicheng.jpg",
+            "email": ""
         }
     ]
 }
