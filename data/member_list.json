@@ -1,78 +1,116 @@
 {
-    "PI": [
-        {
-            "name": "Ning Shen",
-            "class": "Principle Investigator",
-            "photo": "/images/photo/person/shenning.png",
-            "email": "shenningzju@zju.edu.cn"
-        }
-    ],
-    "worker1": [
-        {
-            "name": "Dandan Hu",
-            "class": "Administrative Coordinator",
-            "photo": "/images/photo/person/dandan.jpg",
-            "email": "niwotayang@126.com"
-        }
-    ],
-    "worker2": [
-        {
-            "name": "Jinzhao Liang",
-            "class": "Technician",
-            "photo": "/images/photo/person/jinzhao.jpg",
-            "email": "jinzhaoneuro@gmail.com"
-        },
-        {
-            "name": "Yanhong Feng",
-            "class": "Technician",
-            "photo": "/images/photo/person/yanhong.jpg",
-            "email": "18709486743@163.com"
-        }
-    ],
-    "student1": [
-        {
-            "name": "Lin Lv",
-            "class": "Postdoc",
-            "photo": "/images/photo/person/lvlin2.png",
-            "email": "Lvlin91@126.com"
-        },
-        {
-            "name": "Md Asif Ahsan",
-            "class": "Postdoc",
-            "photo": "/images/photo/person/asif.jpg",
-            "email": "asif@zju.edu.cn"
-        }
-    ],
-    "student2": [
-        {
-            "name": "Hanying Jia",
-            "class": "PhD student",
-            "photo": "/images/photo/person/hanying3.jpg",
-            "email": "452182628@qq.com"
-        },
-        {
-            "name": "Xiaoyang Zhao",
-            "class": "PhD student",
-            "photo": "/images/photo/person/xiaoyang.jpeg",
-            "email": "376357153@qq.com"
-        },
-        {
-            "name": "Ningyuan You",
-            "class": "PhD student",
-            "photo": "/images/photo/person/ningyuan2.png",
-            "email": "12218150@zju.edu.cn"
-        },
-        {
-            "name": "Tianyun Zhang",
-            "class": "PhD student",
-            "photo": "/images/photo/person/tianyun.jpg",
-            "email": "12218151@zju.edu.cn"
-        },
-        {
-            "name": "Yicheng Liu",
-            "class": "PhD student",
-            "photo": "/images/photo/person/yicheng.jpg",
-            "email": ""
-        }
-    ]
+  "PI": [
+    {
+      "name": "Ning Shen",
+      "class": "Principle Investigator",
+      "photo": "/images/photo/person/shenning.png",
+      "email": "shenningzju@zju.edu.cn"
+    }
+  ],
+  "worker1": [
+    {
+      "name": "Dandan Hu",
+      "class": "Administrative Coordinator",
+      "photo": "/images/photo/person/dandan.jpg",
+      "email": "niwotayang@126.com"
+    }
+  ],
+  "worker2": [
+    {
+      "name": "Jinzhao Liang",
+      "class": "Technician",
+      "photo": "/images/photo/person/jinzhao.jpg",
+      "email": "jinzhaoneuro@gmail.com"
+    },
+    {
+      "name": "Yanhong Feng",
+      "class": "Technician",
+      "photo": "/images/photo/person/yanhong.jpg",
+      "email": "18709486743@163.com"
+    }
+  ],
+  "student1": [
+    {
+      "name": "Lin Lv",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/lvlin2.png",
+      "email": "Lvlin91@126.com"
+    },
+    {
+      "name": "Md Asif Ahsan",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/asif.jpg",
+      "email": "asif@zju.edu.cn"
+    }
+  ],
+  "student2": [
+    {
+      "name": "Hanying Jia",
+      "class": "PhD student",
+      "photo": "/images/photo/person/hanying3.jpg",
+      "email": "452182628@qq.com"
+    },
+    {
+      "name": "Xiaoyang Zhao",
+      "class": "PhD student",
+      "photo": "/images/photo/person/xiaoyang.jpeg",
+      "email": "376357153@qq.com"
+    },
+    {
+      "name": "Ningyuan You",
+      "class": "PhD student",
+      "photo": "/images/photo/person/ningyuan2.png",
+      "email": "12218150@zju.edu.cn"
+    },
+    {
+      "name": "Tianyun Zhang",
+      "class": "PhD student",
+      "photo": "/images/photo/person/tianyun.jpg",
+      "email": "12218151@zju.edu.cn"
+    },
+    {
+      "name": "Yicheng Liu",
+      "class": "PhD student",
+      "photo": "/images/photo/person/yicheng.jpg",
+      "email": "lycxder@gmail.com"
+    },
+    {
+      "name": "Chaofan Yang",
+      "class": "PhD student",
+      "photo": "",
+      "email": "mg1931023@smail.nju.edu.cn"
+    },
+    {
+      "name": "Yuxin Gu",
+      "class": "PhD student",
+      "photo": "/images/photo/person/yuxin.jpg",
+      "email": "mg1931023@smail.nju.edu.cn"
+    },
+    {
+      "name": "Rong Wang",
+      "class": "PhD student",
+      "photo": "",
+      "email": ""
+    }
+  ],
+  "student3": [
+    {
+      "name": "Xilu Yuan",
+      "class": "Master student",
+      "photo": "/images/photo/person/xilu.jpg",
+      "email": "yuanxilu@zju.edu.cn"
+    }
+  ],
+
+  "former_student": [
+    {
+      "name": "Tairan Song"
+    },
+    {
+      "name": "Jinzhao Liang"
+    },
+    {
+      "name": "Chun Xing"
+    }
+  ]
 }
