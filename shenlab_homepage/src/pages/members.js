@@ -72,7 +72,7 @@ const Members = (props) => (
           </Grid>
         ))}
       </Grid>
-      <h2>Former Students</h2>
+      <h2>Former Members</h2>
       <Grid container columnSpacing={2} rowSpacing={0}>
         {props.former.map((item, index) => (
           <Grid item xs={3} key={index}>

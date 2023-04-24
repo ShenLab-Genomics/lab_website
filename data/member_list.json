@@ -17,12 +17,6 @@
   ],
   "worker2": [
     {
-      "name": "Jinzhao Liang",
-      "class": "Technician",
-      "photo": "/images/photo/person/jinzhao.jpg",
-      "email": "jinzhaoneuro@gmail.com"
-    },
-    {
       "name": "Yanhong Feng",
       "class": "Technician",
       "photo": "/images/photo/person/yanhong.jpg",
