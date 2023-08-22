@@ -15,19 +15,18 @@
       "email": "niwotayang@126.com"
     }
   ],
-  "worker2": [
-    {
-      "name": "Yanhong Feng",
-      "class": "Technician",
-      "photo": "/images/photo/person/yanhong.jpg",
-      "email": "18709486743@163.com"
-    }
-  ],
+  "worker2": [],
   "student1": [
     {
       "name": "Lin Lv",
       "class": "Postdoc",
       "photo": "/images/photo/person/lvlin2.png",
+      "email": "Lvlin91@126.com"
+    },
+    {
+      "name": "Chang Liu",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/liuchang.jpg",
       "email": "Lvlin91@126.com"
     },
     {
@@ -71,7 +70,7 @@
     {
       "name": "Chaofan Yang",
       "class": "PhD student",
-      "photo": "",
+      "photo": "/images/photo/person/chaofan.jpg",
       "email": "mg1931023@smail.nju.edu.cn"
     },
     {
@@ -97,6 +96,9 @@
   ],
 
   "former_student": [
+    {
+      "name": "Yanhong Feng"
+    },
     {
       "name": "Tairan Song"
     },
