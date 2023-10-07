@@ -2,6 +2,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
+import ReactPlayer from "react-player";
 const Contact = () => (
   <Layout>
     <h2>Research</h2>
@@ -74,45 +75,35 @@ const Contact = () => (
           </p>
           <hr />
         </Box>
-        <Stack direction="row">
+        <Stack direction="column">
           <Box>
             <div className="research-img">
               <img src="/images/mindpic2.jpg" width={"100%"}></img>
               {/* <img src='/images/team2.png' height={458}></img> */}
             </div>
           </Box>
-          <Box>
-            <div className="research-img">
-              <img src="/images/mindpic3_1.jpg" width={"95%"}></img>
-              {/* <img src='/images/team2.png' height={458}></img> */}
-            </div>
-          </Box>
-        </Stack>
-        <Stack direction="row">
-          <Box>
-            <div className="research-img">
-              <img
-                src="/images/gif/20221003_150915_00_00_00_00_00_30.gif"
-                height={280}
-              ></img>
-              <p>
-                1:WT_IPSC were differentiated with 12 μM CHIR99021 at day 0 and{" "}
-                <br />2 μM Wnt-C59 at day 3 on a 12-well plate(D10)
-              </p>
-            </div>
-          </Box>
-          <Box>
-            <div className="research-img">
-              <img
-                src="/images/gif/20220925_184835_00_00_00-00_00_30.gif"
-                height={280}
-              ></img>
-              <p>
-                2:Morphology of hiPSC-CMs after 4 serial passages
-                <br /> (hiPSC-CM differentiation)
-              </p>
-            </div>
-          </Box>
+          <Stack direction="row" spacing={1}>
+            <Box>
+              <div className="research-img">
+                <ReactPlayer
+                  url="/videos/aso1.mp4"
+                  controls={true}
+                  width={"80%"}
+                  height={"80%"}
+                />
+              </div>
+            </Box>
+            <Box>
+              <div className="research-img" style={{ height: "100%" }}>
+                <img
+                  src="/images/mindpic_kidney.png"
+                  width={"100%"}
+                  height={"100%"}
+                ></img>
+                {/* <img src='/images/team2.png' height={458}></img> */}
+              </div>
+            </Box>
+          </Stack>
         </Stack>
       </Box>
     </Stack>

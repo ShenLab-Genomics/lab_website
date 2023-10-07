@@ -34,6 +34,12 @@
       "class": "Postdoc",
       "photo": "/images/photo/person/asif.jpg",
       "email": "asif@zju.edu.cn"
+    },
+    {
+      "name": "Yi Wang",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/wangyi.jpg",
+      "email": "17342015832@163.com"
     }
   ],
   "student2": [
@@ -72,18 +78,6 @@
       "class": "PhD student",
       "photo": "/images/photo/person/chaofan.jpg",
       "email": "mg1931023@smail.nju.edu.cn"
-    },
-    {
-      "name": "Yuxin Gu",
-      "class": "PhD student",
-      "photo": "/images/photo/person/yuxin.jpg",
-      "email": "mg1931023@smail.nju.edu.cn"
-    },
-    {
-      "name": "Rong Wang",
-      "class": "PhD student",
-      "photo": "",
-      "email": ""
     }
   ],
   "student3": [

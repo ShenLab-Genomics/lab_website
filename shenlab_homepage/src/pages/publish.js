@@ -8,6 +8,7 @@ const patents = [
   "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2018. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Canadian Intellectual Property Office CA3077499.",
   "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2022. Use of p38 inhibitors to reduce expression of dux4. U.S. Patent Application 11479770B2.",
   "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. European Patent Office 3691620T3.",
+  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2023. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Japanese Patent Application 2023081029A.",
 ];
 const conference_Proceedings = [
   "Ronco, L., Wagner, K., Cadavid, D., Chang, A., Mellion, M., Robertson, A., Raines, S., Chadchankar, J., Rojas, A., Shieh, P., Shen, N., Statland, J., Tapscott, S., Tawil, R., Engelen, B., Wang, L., Johnson, N., Wallace, O., 2020, A biomarker of DUX4 activity to evaluate losmapimod treatment effect in FSHD phase 2 trials. Neuromuscular Disorders, 30, p.S113",
