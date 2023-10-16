@@ -1,44 +1,23 @@
 [
-    {
-        "url": "/images/photo/members.jpg",
-        "type": "photo",
-        "title": "",
-        "text": "",
-        "link": ""
-    },
-    {
-        "url": "/images/figure/F2.large_1.jpg",
-        "type": "figure",
-        "title": "Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics",
-        "text": "Providing new insights into ASFV pathogenicity research and novel drug or vaccine targets",
-        "link": "https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"
-    },
-    {
-        "url": "/images/figure/F2.large.jpg",
-        "type": "figure",
-        "title": "Detecting expressed cancer somatic mutations from single-cell RNA sequencing data",
-        "text": "Identifying expressed somatic mutations directly from single-cell RNA sequencing (scRNA-seq) data",
-        "link": "https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3"
-    },
-    {
-        "url": "/images/photo/photo2207x1.jpg",
-        "type": "photo",
-        "title": "",
-        "text": "",
-        "link": ""
-    },
-    {
-        "url": "/images/photo/photo2207x2.jpg",
-        "type": "photo",
-        "title": "",
-        "text": "",
-        "link": ""
-    },
-    {
-        "url": "/images/photo/photo0301_p1.jpg",
-        "type": "photo",
-        "title": "",
-        "text": "",
-        "link": ""
-    }
+  {
+    "url": "/images/photo/members.jpg",
+    "type": "photo",
+    "title": "",
+    "text": "",
+    "link": ""
+  },
+  {
+    "url": "/images/figure/F2.large_1.jpg",
+    "type": "figure",
+    "title": "Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics",
+    "text": "Providing new insights into ASFV pathogenicity research and novel drug or vaccine targets",
+    "link": "https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"
+  },
+  {
+    "url": "/images/figure/F2.large.jpg",
+    "type": "figure",
+    "title": "Detecting expressed cancer somatic mutations from single-cell RNA sequencing data",
+    "text": "Identifying expressed somatic mutations directly from single-cell RNA sequencing (scRNA-seq) data",
+    "link": "https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3"
+  }
 ]
