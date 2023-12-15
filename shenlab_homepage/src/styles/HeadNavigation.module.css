@@ -1,82 +1,82 @@
 .header {
-    width: 1000px;
-    height: 120px;
-    font-size: 12px;
-    text-align: left;
-    border-bottom: 2px solid gray;
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  text-align: left;
+  border-bottom: 2px solid gray;
 }
 
 .headl {
-    float: left;
+  float: left;
 }
 
-.header_logo{
-    color: #3d85c6;
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-left: 10px;
-    padding: 10px 0;
+.header_logo {
+  color: #3d85c6;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px 0;
 }
 
 .headr {
-    float: right;
-    margin-top: 55px;
+  float: right;
+  margin-top: 55px;
 }
 
 .nav {
-    margin-bottom: 15px;
-    margin-right: 25px;
-    float: right;
-    display: inline;
-    height: 45px;
-    width: auto;
-    padding: 0;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  /* float: right; */
+  display: inline;
+  /* height: 45px;
+    width: auto; */
+  padding: 0;
 }
 
 .nav ul {
-    list-style: none;
-    list-style-position: outside;
-    position: relative;
+  list-style: none;
+  list-style-position: outside;
+  position: relative;
 }
 
 .nav ul li {
-    float: left;
-    font-family: Open sans, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0 5px;
+  float: left;
+  font-family: Open sans, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 5px;
 }
 
 .nav ul li:first-child {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .nav ul li a {
-    color: #4a4a4a;
-    display: block;
-    height: 40px;
-    line-height: 40px;
-    border: 2px solid transparent;
-    padding: 0 7px;
+  color: #4a4a4a;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid transparent;
+  padding: 0 7px;
 }
 
 .nav ul li.active a,
 .nav ul li a:hover {
-    border: 2px solid #029cdb;
-    background: url(images/nav-btn.png) repeat-x 0 0;
-    color: #fff;
-    text-decoration: none;
+  border: 2px solid #029cdb;
+  background: url(images/nav-btn.png) repeat-x 0 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 .page {
-    width: 1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .content {
-    float: left;
-    width: 970px;
-    margin: 0;
-    padding: 10px;
+  float: left;
+  width: 970px;
+  margin: 0;
+  padding: 10px;
 }
