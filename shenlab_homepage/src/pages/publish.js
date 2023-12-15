@@ -40,6 +40,30 @@ const Publish = () => (
     <h2>Publications</h2>
     <div className={styles.row}>
       <li>
+        Liu, Y.C.#, Zhang, T.Y. #, You, N.Y., Wu, S. *, Shen, N.* MAGPIE:
+        accurate pathogenic prediction for multiple variant types using machine
+        learning approach. <b>Genome Medicine</b>, accepted
+      </li>
+    </div>
+    <div className={styles.row}>
+      <li>
+        Zhang, T.Y., Jia, H.Y., Song, T.R., Lv, L., Gulhan, D.C., Wang, H.S.,
+        Guo, W., Xi, R.B., Guo, H.S., Shen, N. De novo identification of
+        expressed cancer somatic mutations from single-cell RNA sequencing data.
+        <b>Genome Medicine</b>, accepted
+      </li>
+    </div>
+    <div className={styles.row}>
+      <li>
+        Wu, L., Wang, H. S., Chen, Y. N., Zhang, X., Zhang, T.Y., Shen, N., Tao,
+        G. Y., Sun, Z. Q., Ding, Y., Wang, W. L., Bu, J. J., (2023). Beyond
+        radiologist-level liver lesion detection on multi-phase
+        contrast-enhanced CT images by deep learning.
+        <b>iScience</b>, 26 (11): 108183
+      </li>
+    </div>
+    <div className={styles.row}>
+      <li>
         Lv, L., Zhang, T.Y., Jia, H.Y., Zhang, Y.Y., Ahsan, A., Zhao, X.Y.,
         Chen, T., Shen, Z.Q., Shen, N.(2022). Temporally integrated
         transcriptome analysis reveals ASFV pathology and host response
