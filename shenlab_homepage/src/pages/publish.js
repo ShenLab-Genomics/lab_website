@@ -20,7 +20,7 @@ const conference_Proceedings = [
 ];
 const Publish = () => (
   <Layout>
-    <h2>Preprint</h2>
+    {/* <h2>Preprint</h2>
     <div className={styles.row}>
       <li>
         Tianyun Zhang, Ning Shen. Detecting expressed cancer somatic mutations
@@ -29,7 +29,7 @@ const Publish = () => (
           &nbsp;biorxiv
         </a>
       </li>
-    </div>
+    </div> */}
     {/* <div className={styles.row}>
             <li>
                 Lin Lv, Tianyun Zhang, Yanyan Zhang, Asif Ahsan, Xiaoyang Zhao, Zhiqiang Shen, Teng Chen, Ning Shen. Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics.
