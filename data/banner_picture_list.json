@@ -7,6 +7,20 @@
     "link": ""
   },
   {
+    "url": "/images/figure/Magpie.png",
+    "type": "figure",
+    "title": "Interpretable Multimodal Analysis Generated Pathogenic Impact Evaluator",
+    "text": "Providing accurate prediction for kinds of exonic variants.",
+    "link": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-023-01274-4"
+  },
+  {
+    "url": "/images/figure/RESA.jpg",
+    "type": "figure",
+    "title": "De novo identification of expressed cancer somatic mutations from single-cell RNA sequencing data",
+    "text": "We propose RESA – Recurrently Expressed SNV Analysis, a computational framework to identify expressed somatic mutations from scRNA-seq data.",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/38111063/"
+  },
+  {
     "url": "/images/figure/F2.large_1.jpg",
     "type": "figure",
     "title": "Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics",
