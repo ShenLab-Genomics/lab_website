@@ -72,12 +72,6 @@
       "class": "PhD student",
       "photo": "/images/photo/person/yicheng.jpg",
       "email": "yichengliu@zju.edu.cn"
-    },
-    {
-      "name": "Chaofan Yang",
-      "class": "PhD student",
-      "photo": "/images/photo/person/chaofan.jpg",
-      "email": "yangcf@nicemice.cn"
     }
   ],
   "student3": [
@@ -90,6 +84,9 @@
   ],
 
   "former_student": [
+    {
+      "name": "Chaofan Yang"
+    },
     {
       "name": "Yanhong Feng"
     },

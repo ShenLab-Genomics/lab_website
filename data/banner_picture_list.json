@@ -7,17 +7,17 @@
     "link": ""
   },
   {
-    "url": "/images/figure/Magpie.png",
+    "url": "/images/figure/Magpie.jpg",
     "type": "figure",
-    "title": "Interpretable Multimodal Analysis Generated Pathogenic Impact Evaluator",
-    "text": "Providing accurate prediction for kinds of exonic variants.",
+    "title": "Identifying pathogenic variants using a multimodal machine learning approach",
+    "text": "Yicheng et al develop MAGPIE, a machine learning-based multi-modality accurate pathogenicity predictor for all non-synonymous mutations. (Genome Med, 2023)",
     "link": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-023-01274-4"
   },
   {
     "url": "/images/figure/RESA.jpg",
     "type": "figure",
-    "title": "De novo identification of expressed cancer somatic mutations from single-cell RNA sequencing data",
-    "text": "We propose RESA – Recurrently Expressed SNV Analysis, a computational framework to identify expressed somatic mutations from scRNA-seq data.",
+    "title": "Detecting somatic mutations de novo from single-cell RNA sequencing data",
+    "text": "Tianyun et al develop RESA -- Recurrently Expressed SNV Analysis that identifies expressed somatic mutations from scRNA-seq with high precision (Genome Medicine, 2023)",
     "link": "https://pubmed.ncbi.nlm.nih.gov/38111063/"
   },
   {
@@ -26,12 +26,5 @@
     "title": "Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics",
     "text": "Providing new insights into ASFV pathogenicity research and novel drug or vaccine targets",
     "link": "https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"
-  },
-  {
-    "url": "/images/figure/F2.large.jpg",
-    "type": "figure",
-    "title": "Detecting expressed cancer somatic mutations from single-cell RNA sequencing data",
-    "text": "Identifying expressed somatic mutations directly from single-cell RNA sequencing (scRNA-seq) data",
-    "link": "https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3"
   }
 ]

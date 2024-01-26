@@ -41,22 +41,23 @@ const Publish = () => (
     <h2>Publications</h2>
     <div className={styles.row}>
       <li>
-        Liu, Y.C.#, Zhang, T.Y. #, You, N.Y., Wu, S. *, Shen, N.* MAGPIE:
-        accurate pathogenic prediction for multiple variant types using machine
-        learning approach. <b>Genome Medicine</b>{" "}
-        <Link href="https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-023-01274-4">
-          <a>Abstract</a>
+        Liu, Y. #, Zhang, T. #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).
+        MAGPIE: accurate pathogenic prediction for multiple variant types using
+        machine learning approach.
+        <b>Genome medicine</b>,16(1),3.{" "}
+        <Link href="https://doi.org/10.1186/s13073-023-01274-4">
+          <a>Link</a>
         </Link>
       </li>
     </div>
     <div className={styles.row}>
       <li>
-        Zhang, T.Y., Jia, H.Y., Song, T.R., Lv, L., Gulhan, D.C., Wang, H.S.,
-        Guo, W., Xi, R.B., Guo, H.S., Shen, N. De novo identification of
-        expressed cancer somatic mutations from single-cell RNA sequencing data.
-        <b>Genome Medicine</b>{" "}
-        <Link href="https://pubmed.ncbi.nlm.nih.gov/38111063">
-          <a>Abstract</a>
+        Zhang, T., Jia, H., Song, T., Lv, L., Gulhan, D. C., Wang, H., Guo, W.,
+        Xi, R., Guo, H., & Shen, N. (2023). De novo identification of expressed
+        cancer somatic mutations from single-cell RNA sequencing data.
+        <b>Genome Medicine</b>, 15(1), 115.{" "}
+        <Link href="https://doi.org/10.1186/s13073-023-01269-1">
+          <a>Link</a>
         </Link>
       </li>
     </div>
