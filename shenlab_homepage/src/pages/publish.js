@@ -19,26 +19,46 @@ const conference_Proceedings = [
   "Leehr, D., Bradley, J., Gordan, R., Shen, N. and Lapp, H., 2018. iMADS: A sustainable software collaboration for predicting transcription factor binding specificity. F1000Research, 7.",
   "Rojas, L., Accorsi, A., Shen, N., Maglio, J., Chang, A., Rahl, P. and Cacace, A., 2017. Pharmacologic modulation of DUX4-dependent phenotypes in FSHD. Neuromuscular Disorders, 27, p.S200.",
 ];
+
+const _articles = [
+  {
+    authors:
+      "Liu, Y. #, Zhang, T. #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).",
+    title:
+      "MAGPIE: accurate pathogenic prediction for multiple variant types using machine learning approach",
+    journal: "<b>Genome medicine</b>,16(1),3.",
+    link: "https://doi.org/10.1186/s13073-023-01274-4",
+    year: 2024,
+  },
+  {
+    authors: "AAA",
+    title: "BBB",
+    journal: "CCC",
+    link: "DDD",
+    year: 2024,
+  },
+];
+const _patents = [
+  {
+    authors: "AAA",
+    title: "BBB",
+  },
+];
 const Publish = () => (
   <Layout>
-    {/* <h2>Preprint</h2>
-    <div className={styles.row}>
-      <li>
-        Tianyun Zhang, Ning Shen. Detecting expressed cancer somatic mutations
-        from single-cell RNA sequencing data.
-        <a href="https://www.biorxiv.org/content/10.1101/2021.10.08.463191v3">
-          &nbsp;biorxiv
-        </a>
-      </li>
-    </div> */}
-    {/* <div className={styles.row}>
-            <li>
-                Lin Lv, Tianyun Zhang, Yanyan Zhang, Asif Ahsan, Xiaoyang Zhao, Zhiqiang Shen, Teng Chen, Ning Shen. Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics.
-
-                <a href={"https://www.biorxiv.org/content/10.1101/2022.05.06.490987v2"}>&nbsp;biorxiv</a>
-            </li>
-        </div> */}
     <h2>Publications</h2>
+    {_articles.map((item, idx) => (
+      <div className={styles.row} key={idx}>
+        <li>
+          <span dangerouslySetInnerHTML={{ __html: item.authors }}></span>{" "}
+          <span dangerouslySetInnerHTML={{ __html: item.title }}></span>{" "}
+          <span dangerouslySetInnerHTML={{ __html: item.journal }}></span>{" "}
+          <Link href={item.link}>
+            <a>Link</a>
+          </Link>
+        </li>
+      </div>
+    ))}
     <div className={styles.row}>
       <li>
         Liu, Y. #, Zhang, T. #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).
