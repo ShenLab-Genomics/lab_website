@@ -12,3 +12,15 @@
     flex:none;
     width: 25%;
 }
+
+.jss123{
+    /* display: block; */
+    top: 106px;
+    /* width: 175px; */
+    /* height: calc(100vh - 70px - 36px);
+    display: none;
+    position: sticky;
+    margin-top: 106px;  
+    overflow-y: auto;
+    flex-shrink: 0; */
+}
