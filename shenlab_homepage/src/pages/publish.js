@@ -3,16 +3,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/Publish.module.css";
 import { Button, Container, Grid, IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-const patents = [
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2020. P38 kinase inhibitors reduce DUX4 and downstream gene expression for the treatment of FSHD. U.S. Patent 10,537,560.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2020. P38 kinase inhibitors reduce DUX4 and downstream gene expression for the treatment of FSHD. Israel Patent Offiece IL273589.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2019. P38 kinase inhibitors reduce DUX4 and downstream gene expression for the treatment of FSHD. U.S. Patent 10342786.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2019. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Japanese Patent Application 7012152.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2018. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Canadian Intellectual Property Office CA3077499.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2022. Use of p38 inhibitors to reduce expression of dux4. U.S. Patent Application 11479770B2.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. European Patent Office 3691620T3.",
-  "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., Shen, N., Robertson, A.S. and Chang, A.N., Fulcrum Therapeutics Inc, 2023. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Japanese Patent Application 2023081029A.",
-];
+import AbstractViewer from "../components/AbstractViewer";
 const conference_Proceedings = [
   "Ronco, L., Wagner, K., Cadavid, D., Chang, A., Mellion, M., Robertson, A., Raines, S., Chadchankar, J., Rojas, A., Shieh, P., Shen, N., Statland, J., Tapscott, S., Tawil, R., Engelen, B., Wang, L., Johnson, N., Wallace, O., 2020, A biomarker of DUX4 activity to evaluate losmapimod treatment effect in FSHD phase 2 trials. Neuromuscular Disorders, 30, p.S113",
   "Ronco, L., Cadavid, D., Chang, A., Mellion, M., Rojas, A., Shen, N., Tawil, R., Tapscott, S., Wang, L. and Wallace, O., 2019. P. 47Design of a biomarker of DUX4 activity to evaluate losmapimod treatment effect in FSHD Phase 2 trials. Neuromuscular Disorders, 29, pp.S54-S55.",
@@ -31,6 +22,8 @@ const _articles = [
     journal: "<b>Genome medicine</b>,16(1),3.",
     link: "https://doi.org/10.1186/s13073-023-01274-4",
     year: 2024,
+    abstract:
+      "Identifying pathogenic variants from the vast majority of nucleotide variation remains a challenge. We present a method named Multimodal Annotation Generated Pathogenic Impact Evaluator (MAGPIE) that predicts the pathogenicity of multi-type variants. MAGPIE uses the ClinVar dataset for training and demonstrates superior performance in both the independent test set and multiple orthogonal validation datasets, accurately predicting variant pathogenicity. Notably, MAGPIE performs best in predicting the pathogenicity of rare variants and highly imbalanced datasets. Overall, results underline the robustness of MAGPIE as a valuable tool for predicting pathogenicity in various types of human genome variations. MAGPIE is available at https://github.com/shenlab-genomics/magpie.",
   },
   {
     authors:
@@ -40,6 +33,8 @@ const _articles = [
     journal: "<b>Genome medicine</b>, 15(1), 115.",
     link: "https://doi.org/10.1186/s13073-023-01269-1",
     year: 2023,
+    abstract:
+      "Identifying expressed somatic mutations from single-cell RNA sequencing data de novo is challenging but highly valuable. We propose RESA - Recurrently Expressed SNV Analysis, a computational framework to identify expressed somatic mutations from scRNA-seq data. RESA achieves an average precision of 0.77 on three in silico spike-in datasets. In extensive benchmarking against existing methods using 19 datasets, RESA consistently outperforms them. Furthermore, we applied RESA to analyze intratumor mutational heterogeneity in a melanoma drug resistance dataset. By enabling high precision detection of expressed somatic mutations, RESA substantially enhances the reliability of mutational analysis in scRNA-seq. RESA is available at https://github.com/ShenLab-Genomics/RESA .",
   },
   {
     authors:
@@ -49,6 +44,8 @@ const _articles = [
     journal: "<b>iScience, 26(11)<b>, 108183.",
     link: "https://doi.org/10.1016/j.isci.2023.108183",
     year: 2023,
+    abstract:
+      "Accurate detection of liver lesions from multi-phase contrast-enhanced CT (CECT) scans is a fundamental step for precise liver diagnosis and treatment. However, the analysis of multi-phase contexts is heavily challenged by the misalignment caused by respiration coupled with the movement of organs. Here, we proposed an AI system for multi-phase liver lesion segmentation (named MULLET) for precise and fully automatic segmentation of real-patient CECT images. MULLET enables effectively embedding the important ROIs of CECT images and exploring multi-phase contexts by introducing a transformer-based attention mechanism. Evaluated on 1,229 CECT scans from 1,197 patients, MULLET demonstrated significant performance gains in terms of Dice, Recall, and F2 score, which are 5.80%, 6.57%, and 5.87% higher than state of the arts, respectively. MULLET has been successfully deployed in real-world settings. The deployed AI web server provides a powerful system to boost clinical workflows of liver lesion diagnosis and could be straightforwardly extended to general CECT analyses.",
   },
   {
     authors:
@@ -199,27 +196,39 @@ const Publish = () => (
       <Grid xs={10}>
         <h2 id="Articles">Publications</h2>
         {_articles.map((item, idx) => (
+          // <div className={styles.row} key={idx}>
+          //   <li>
+          //     <span dangerouslySetInnerHTML={{ __html: item.authors }}></span>{" "}
+          //     <span dangerouslySetInnerHTML={{ __html: item.title }}></span>{" "}
+          //     <span dangerouslySetInnerHTML={{ __html: item.journal }}></span>{" "}
+          //     {/* <Link href={item.link}> */}
+          //     {/* <a>Link</a> */}
+          //     {/* <SearchOutlinedIcon></SearchOutlinedIcon> */}
+          //     {/* </Link> */}
+          //     <IconButton aria-label="detail" href={item.link} size="small">
+          //       <SearchIcon />
+          //     </IconButton>
+          //   </li>
+          // </div>
+          <AbstractViewer
+            title={item.title}
+            authors={item.authors}
+            journal={item.journal}
+            abstract={item.abstract}
+            url={item.link}
+          />
+        ))}
+
+        <h2 id="Patents">Patents</h2>
+        {_patents.map((item, idx) => (
           <div className={styles.row} key={idx}>
             <li>
               <span dangerouslySetInnerHTML={{ __html: item.authors }}></span>{" "}
               <span dangerouslySetInnerHTML={{ __html: item.title }}></span>{" "}
-              <span dangerouslySetInnerHTML={{ __html: item.journal }}></span>{" "}
-              {/* <Link href={item.link}> */}
-              {/* <a>Link</a> */}
-              {/* <SearchOutlinedIcon></SearchOutlinedIcon> */}
-              {/* </Link> */}
-              <IconButton aria-label="detail" href={item.link} size="small">
-                <SearchIcon />
-              </IconButton>
             </li>
           </div>
         ))}
-        <h2 id="Patents">Patents</h2>
-        {patents.map((item, idx) => (
-          <div className={styles.row} key={idx}>
-            <li>{item}</li>
-          </div>
-        ))}
+
         <h2 id="Conference_Proceedings">Conference Proceedings</h2>
         {conference_Proceedings.map((item, idx) => (
           <div className={styles.row} key={idx}>
