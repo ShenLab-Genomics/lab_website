@@ -216,6 +216,7 @@ const Publish = () => (
             journal={item.journal}
             abstract={item.abstract}
             url={item.link}
+            key={idx}
           />
         ))}
 
