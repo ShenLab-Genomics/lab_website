@@ -74,7 +74,7 @@ const _articles = [
   },
   {
     authors:
-      "Rojas, L. A., Valentine, E., Accorsi, A., Maglio, J., <b>Shen, N.<b>, Robertson, A., Kazmirski, S., Rahl, P., Tawil, R., Cadavid, D., Thompson, L. A., Ronco, L., Chang, A. N., Cacace, A. M., & Wallace, O. (2020).",
+      "Rojas, L. A., Valentine, E., Accorsi, A., Maglio, J., <b>Shen, N.</b>, Robertson, A., Kazmirski, S., Rahl, P., Tawil, R., Cadavid, D., Thompson, L. A., Ronco, L., Chang, A. N., Cacace, A. M., & Wallace, O. (2020).",
     title:
       "p38&alpha; Regulates Expression of DUX4 in a Model of Facioscapulohumeral Muscular Dystrophy.",
     journal:
