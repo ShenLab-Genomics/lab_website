@@ -16,6 +16,28 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
+      "Yuan, X. #, Wang, H. #, Sun, Z. #, Zhou, C., Chu, S. C., Bu, J., <b>Shen, N.</b> (2024)",
+    title:
+      "Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data.",
+    journal: "<b>Cell reports methods</b>, 4, 100733.",
+    link: "https://doi.org/10.1016/j.crmeth.2024.100733",
+    year: 2024,
+    abstract:
+      "Here, we present Anchored-fusion, a highly sensitive fusion gene detection tool. It anchors a gene of interest, which often involves driver fusion events, and recovers non-unique matches of short-read sequences that are typically filtered out by conventional algorithms. In addition, Anchored-fusion contains a module based on a deep learning hierarchical structure that incorporates self-distillation learning (hierarchical view learning and distillation [HVLD]), which effectively filters out false positive chimeric fragments generated during sequencing while maintaining true fusion genes. Anchored-fusion enables highly sensitive detection of fusion genes, thus allowing for application in cases with low sequencing depths. We benchmark Anchored-fusion under various conditions and found it outperformed other tools in detecting fusion events in simulated data, bulk RNA sequencing (bRNA-seq) data, and single-cell RNA sequencing (scRNA-seq) data. Our results demonstrate that Anchored-fusion can be a useful tool for fusion detection tasks in clinically relevant RNA-seq data and can be applied to investigate intratumor heterogeneity in scRNA-seq data.",
+  },
+  {
+    authors:
+      "Zhang, L. #, Zhao, J. #, Lam, S. M. #, Chen, L. #, Gao, Y. #, Wang, W. #, Xu, Y., Tan, T., Yu, H., Zhang, M., Liao, X., Wu, M., Zhang, T., Huang, J., Li, B., Zhou, Q. D., <b>Shen, N.</b>, Lee, H. J., Ye, C., Li, D. *, … Zhang, J. * (2024)",
+    title:
+      "Low-input lipidomics reveals lipid metabolism remodelling during early mammalian embryo development.",
+    journal: "<b>Nature cell biology</b>, 26(2), 278–293.",
+    link: "https://www.nature.com/articles/s41556-023-01341-3",
+    year: 2024,
+    abstract:
+      "Lipids are indispensable for energy storage, membrane structure and cell signalling. However, dynamic changes in various categories of endogenous lipids in mammalian early embryonic development have not been systematically characterized. Here we comprehensively investigated the dynamic lipid landscape during mouse and human early embryo development. Lipid signatures of different developmental stages are distinct, particularly for the phospholipid classes. We highlight that the high degree of phospholipid unsaturation is a conserved feature as embryos develop to the blastocyst stage. Moreover, we show that lipid desaturases such as SCD1 are required for in vitro blastocyst development and blastocyst implantation. One of the mechanisms is through the regulation of unsaturated fatty-acid-mediated fluidity of the plasma membrane and apical proteins and the establishment of apical-basal polarity during development of the eight-cell embryo to the blastocyst. Overall, our study provides an invaluable resource about the remodelling of the endogenous lipidome in mammalian preimplantation embryo development and mechanistic insights into the regulation of embryogenesis and implantation by lipid unsaturation.",
+  },
+  {
+    authors:
       "Liu, Y. #, Zhang, T. #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).",
     title:
       "MAGPIE: accurate pathogenic prediction for multiple variant types using machine learning approach.",
