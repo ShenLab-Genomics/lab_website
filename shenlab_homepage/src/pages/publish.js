@@ -16,6 +16,17 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
+      "Sun, Y., Xu, L., Li, Y., Jia, S., Wang, G., Cen, X., Xu, Y., Cao, Z., Wang, J., <b>Shen, N.</b>, Hu, L., Zhang, J., Mao, J., Xia, H., Liu, Z., & Fu, X. (2024)",
+    title:
+      "Mitophagy defect mediates the aging-associated hallmarks in Hutchinson-Gilford progeria syndrome.",
+    journal: "<b>Aging cell</b>, 4, e14143. Advance online publication.",
+    link: "https://doi.org/10.1111/acel.14143",
+    year: 2024,
+    abstract:
+      "Hutchinson–Gilford progeria syndrome (HGPS) is a rare and fatal disease manifested by premature aging and aging-related phenotypes, making it a disease model for aging. The cellular machinery mediating age-associated phenotypes in HGPS remains largely unknown, resulting in limited therapeutic targets for HGPS. In this study, we showed that mitophagy defects impaired mitochondrial function and contributed to cellular markers associated with aging in mesenchymal stem cells derived from HGPS patients (HGPS-MSCs). Mechanistically, we discovered that mitophagy affected the aging-associated phenotypes of HGPS-MSCs by inhibiting the STING-NF-ĸB pathway and the downstream transcription of senescence-associated secretory phenotypes (SASPs). Furthermore, by utilizing UMI-77, an effective mitophagy inducer, we showed that mitophagy induction alleviated aging-associated phenotypes in HGPS and naturally aged mice. Collectively, our results uncovered that mitophagy defects mediated the aging-associated markers in HGPS, highlighted the function of mitochondrial homeostasis in HGPS progression, and suggested mitophagy as an intervention target for HGPS and aging.",
+  },
+  {
+    authors:
       "Yuan, X. #, Wang, H. #, Sun, Z. #, Zhou, C., Chu, S. C., Bu, J., <b>Shen, N.</b> (2024)",
     title:
       "Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data.",

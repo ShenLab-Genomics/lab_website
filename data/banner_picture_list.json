@@ -7,6 +7,13 @@
     "link": ""
   },
   {
+    "url": "/images/figure/AnchorFusion.jpg",
+    "type": "figure",
+    "title": "Searching targeted fusion in bulk and single-cell RNA sequencing data",
+    "text": "Xilu et al. developed Anchored-fusion, a bioinformatic tool detecting fusion events involved by target gene with extremely high sensitivity.",
+    "link": "https://doi.org/10.1016/j.crmeth.2024.100733"
+  },
+  {
     "url": "/images/figure/Magpie.jpg",
     "type": "figure",
     "title": "Identifying pathogenic variants using a multimodal machine learning approach",
