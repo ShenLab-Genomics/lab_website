@@ -10,7 +10,7 @@
     "url": "/images/figure/AnchorFusion.jpg",
     "type": "figure",
     "title": "Searching targeted fusion in bulk and single-cell RNA sequencing data",
-    "text": "Xilu et al. developed Anchored-fusion, a bioinformatic tool detecting fusion events involved by target gene with extremely high sensitivity.",
+    "text": "Xilu et al. developed Anchored-fusion, a highly sensitive tool for detecting gene fusion events in both bulk and single-cell RNA sequencing data.",
     "link": "https://doi.org/10.1016/j.crmeth.2024.100733"
   },
   {
