@@ -1,5 +1,5 @@
 ---
-title: Our team piblished a paper in Cell Reports Methods.
+title: Our team published a paper in Cell Reports Methods.
 date: "2024-03-18"
 ---
 
