@@ -16,6 +16,17 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
+      "Wang, H.*, Jing, H., Yang, J., Liu, C., Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
+    title:
+      "Identifying autism spectrum disorder from multi-modal data with privacy-preserving.",
+    journal: "<b>Npj mental health research</b>,3(1), 15",
+    link: "https://doi.org/10.1038/s44184-023-00050-x",
+    year: 2024,
+    abstract:
+      "The application of deep learning models to precision medical diagnosis often requires the aggregation of large amounts of medical data to effectively train high-quality models. However, data privacy protection mechanisms make it difficult to perform medical data collection from different medical institutions. In autism spectrum disorder (ASD) diagnosis, automatic diagnosis using multimodal information from heterogeneous data has not yet achieved satisfactory performance. To address the privacy preservation issue as well as to improve ASD diagnosis, we propose a deep learning framework using multimodal feature fusion and hypergraph neural networks for disease prediction in federated learning (FedHNN). By introducing the federated learning strategy, each local model is trained and computed independently in a distributed manner without data sharing, allowing rapid scaling of medical datasets to achieve robust and scalable deep learning predictive models. To further improve the performance with privacy preservation, we improve the hypergraph model for multimodal fusion to make it suitable for autism spectrum disorder (ASD) diagnosis tasks by capturing the complementarity and correlation between modalities through a hypergraph fusion strategy. The results demonstrate that our proposed federated learning-based prediction model is superior to all local models and outperforms other deep learning models. Overall, our proposed FedHNN has good results in the work of using multi-site data to improve the performance of ASD identification.",
+  },
+  {
+    authors:
       "Sun, Y., Xu, L., Li, Y., Jia, S., Wang, G., Cen, X., Xu, Y., Cao, Z., Wang, J., <b>Shen, N.</b>, Hu, L., Zhang, J., Mao, J., Xia, H., Liu, Z., & Fu, X. (2024)",
     title:
       "Mitophagy defect mediates the aging-associated hallmarks in Hutchinson-Gilford progeria syndrome.",
