@@ -189,6 +189,66 @@ const _patents = [
     authors:
       "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
     title:
+      "Fulcrum Therapeutics Inc, 2023. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Taiwan TWI793191B.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Spain ES2927715T3.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. Use of P38 inhibitors to reduce expression of DUX4. U.S. US11479770B2.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Denmark DK3691620T3.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Europe EP3691620B1.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. China CN111601593B.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. U.S. US11291659B2.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2022. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Japan JP7012152B2.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2021. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Canada CA3077499C.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
+      "Fulcrum Therapeutics Inc, 2021. P38 kinase inhibitors reduce DUX4 and downstream gene expression for the treatment of FSHD. Australia AU2018346712B2.",
+  },
+  {
+    authors:
+      "Cacace, A.M., SOTO, L.G.A.R., Thompson III, L.A., Wallace, O.B., Ronco, L.V., <b>Shen, N.</b>, Robertson, A.S. and Chang, A.N.",
+    title:
       "Fulcrum Therapeutics Inc, 2023. P38 kinase inhibitors reduce dux4 and downstream gene expression for the treatment of fshd. Japanese Patent Application 2023113691A. ",
   },
   {
