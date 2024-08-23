@@ -16,6 +16,17 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
+      "You, N., Liu, C., Gu, Y., Wang, R., Jia, H., Zhang, T., Jiang, S., Shi, J., Chen, M., Guan, M. X., Sun, S., Pei, S., Liu, Z. *, & <b>Shen, N. </b>* (2024).",
+    title:
+      "SpTransformer predicts tissue-specific splicing linked to human diseases.",
+    journal: "<b>Nature Communications</b> (accepted)",
+    link: "",
+    year: 2024,
+    abstract:
+      "",
+  },
+  {
+    authors:
       "Wang, H.*, Jing, H., Yang, J., Liu, C., Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
     title:
       "Identifying autism spectrum disorder from multi-modal data with privacy-preserving.",

@@ -64,14 +64,18 @@ const Members = (props) => (
           </Grid>
         ))}
       </Grid>
-      <h2>Master Students</h2>
-      <Grid container columnSpacing={2} rowSpacing={0}>
-        {props.masterStudents.map((item, index) => (
-          <Grid item xs={3} key={index}>
-            <PersonInfoSmall props={item} />
+      {props.masterStudents && props.masterStudents.length > 0 && (
+        <>
+          <h2>Master Students</h2>
+          <Grid container columnSpacing={2} rowSpacing={0}>
+            {props.masterStudents.map((item, index) => (
+              <Grid item xs={3} key={index}>
+                <PersonInfoSmall props={item} />
+              </Grid>
+            ))}
           </Grid>
-        ))}
-      </Grid>
+        </>
+      )}
       <h2>Former Members</h2>
       <Grid container columnSpacing={2} rowSpacing={0}>
         {props.former.map((item, index) => (

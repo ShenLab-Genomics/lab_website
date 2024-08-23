@@ -30,16 +30,16 @@
       "email": "yagao_liu@outlook.com"
     },
     {
+      "name": "Md Asif Ahsan",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/asif.jpg",
+      "email": "asif@zju.edu.cn"
+    },
+    {
       "name": "Yi Wang",
       "class": "Postdoc",
       "photo": "/images/photo/person/wangyi.jpg",
       "email": "17342015832@163.com"
-    },
-    {
-      "name": "Ting Zan",
-      "class": "Postdoc",
-      "photo": "/images/photo/person/zanting.jpg",
-      "email": "2990842436@qq.com"
     }
   ],
   "student2": [
@@ -74,7 +74,15 @@
       "email": "yichengliu@zju.edu.cn"
     }
   ],
-  "student3": [],
+  "student3": [
+    {
+      "name": "Xilu Yuan",
+      "class": "Master student",
+      "photo": "/images/photo/person/xilu.jpg",
+      "email": "yuanxilu@zju.edu.cn"
+    }
+  ],
+
   "former_student": [
     {
       "name": "Md Asif Ahsan"
