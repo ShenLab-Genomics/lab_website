@@ -18,12 +18,12 @@ const _articles = [
     authors:
       "You, N., Liu, C., Gu, Y., Wang, R., Jia, H., Zhang, T., Jiang, S., Shi, J., Chen, M., Guan, M. X., Sun, S., Pei, S., Liu, Z. *, & <b>Shen, N. </b>* (2024).",
     title:
-      "SpTransformer predicts tissue-specific splicing linked to human diseases.",
-    journal: "<b>Nature Communications</b> (accepted)",
-    link: "",
+      "SpliceTransformer predicts tissue-specific splicing linked to human diseases.",
+    journal: "<b>Nature Communications</b>",
+    link: "https://www.nature.com/articles/s41467-024-53088-6",
     year: 2024,
     abstract:
-      "",
+      "We present SpliceTransformer (SpTransformer), a deep-learning framework that predicts tissue-specific RNA splicing alterations linked to human diseases based on genomic sequence. SpTransformer outperforms all previous methods on splicing prediction. Application to approximately 1.3 million genetic variants in the ClinVar database reveals that splicing alterations account for 60% of intronic and synonymous pathogenic mutations, and occur at different frequencies across tissue types. Importantly, tissue-specific splicing alterations match their clinical manifestations independent of gene expression variation. We validate the enrichment in three brain disease datasets involving over 164,000 individuals. Additionally, we identify single nucleotide variations that cause brain-specific splicing alterations, and find disease-associated genes harboring these single nucleotide variations with distinct expression patterns involved in diverse biological processes. Finally, SpTransformer analysis of whole exon sequencing data from blood samples of patients with diabetic nephropathy predicts kidney-specific RNA splicing alterations with 83% accuracy, demonstrating the potential to infer disease-causing tissue-specific splicing events. SpTransformer provides a powerful tool to guide biological and clinical interpretations of human diseases.",
   },
   {
     authors:
