@@ -7,6 +7,13 @@
     "link": ""
   },
   {
+    "url": "/images/figure/SpTransformer.png",
+    "type": "figure",
+    "title": "SpliceTransformer predicts tissue-specific splicing linked to human diseases",
+    "text": "Ningyuan et al. developed SpliceTransformer, a deep-learning framework that predicts tissue-specific RNA splicing alterations linked to human diseases based on genomic sequence.",
+    "link": "https://www.nature.com/articles/s41467-024-53088-6"
+  },
+  {
     "url": "/images/figure/AnchorFusion.jpg",
     "type": "figure",
     "title": "Searching targeted fusion in bulk and single-cell RNA sequencing data",
