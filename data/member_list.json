@@ -9,10 +9,10 @@
   ],
   "worker1": [
     {
-      "name": "Dandan Hu",
+      "name": "Xin Liu",
       "class": "Administrative Coordinator",
-      "photo": "/images/photo/person/dandan.jpg",
-      "email": "niwotayang@126.com"
+      "photo": "/images/photo/person/liuxin.jpg",
+      "email": ""
     }
   ],
   "worker2": [],
@@ -96,6 +96,9 @@
     },
     {
       "name": "Chun Xing"
+    },
+    {
+      "name": "Dandan Hu"
     }
   ]
 }
