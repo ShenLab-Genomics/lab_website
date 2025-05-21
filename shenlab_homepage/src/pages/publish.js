@@ -18,7 +18,7 @@ const _articles = [
     authors:
       "Jiang, S.#, Jia, H.#, Hou, Q.#, Jin, L.#, Ahsan, M. A.#, Li, G., Guan, T., Zhao, J., Liu, Z., Xie, J., Cheng, H., Hao, C., Wan, J., Ni, Z., Wang, N., Shi, J., Zheng, C., Zhang, R., Yan, D., Chen, H., Jia, W.*, <b>Shen, N.</b>*, Hu, C.*, Liu, Z.* (2025).",
     title:
-      "Diversities of African swine fever virus host-virus dynamics revealed by single-cell profiling",
+      "Multimodal analysis stratifies the genetic susceptibility and reveals the pathogenic mechanism of kidney injury in diabeticnephropathy",
     journal: "<b>Cell reports medicine (Accepted)</b>",
     link: "https://www.nature.com/articles/s41467-024-53088-6",
     year: 2025,
