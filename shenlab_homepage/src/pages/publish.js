@@ -16,6 +16,27 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
+      "Jiang, S.#, Jia, H.#, Hou, Q.#, Jin, L.#, Ahsan, M. A.#, Li, G., Guan, T., Zhao, J., Liu, Z., Xie, J., Cheng, H., Hao, C., Wan, J., Ni, Z., Wang, N., Shi, J., Zheng, C., Zhang, R., Yan, D., Chen, H., Jia, W.*, <b>Shen, N.</b>*, Hu, C.*, Liu, Z.* (2025).",
+    title:
+      "Diversities of African swine fever virus host-virus dynamics revealed by single-cell profiling",
+    journal: "<b>Cell reports medicine (Accepted)</b>",
+    link: "https://www.nature.com/articles/s41467-024-53088-6",
+    year: 2025,
+    abstract: "",
+  },
+  {
+    authors:
+      "Zhao, X., Zhang, Y., Jia, H., Lv, L., Ahsan, M. A., Fu, X., Hu, R., Shen, Z., & <b>Shen, N.</b>* (2025).",
+    title:
+      "Diversities of African swine fever virus host-virus dynamics revealed by single-cell profiling",
+    journal: "<b>Journal of Virology</b>",
+    link: "https://journals.asm.org/doi/10.1128/jvi.02035-24",
+    year: 2025,
+    abstract:
+      "African swine fever virus (ASFV) causes epidemics with high mortality; however, effective vaccines and therapies remain missing. Here, we depict a temporal single-cell landscape of primary porcine alveolar macrophages (PAMs) exposed to three different virulent ASFV strains in vitro. We found that attenuated and low-virulence ASFV strains tend to exhibit higher viral loads than highly virulent strain, which may result from upregulated RNA polymerase subunit genes expression. On the host side, our study highlights the IRF7-mediated positive feedback loop to the activation of the interferon signaling pathway in cells exposed to attenuated and low virulent ASFV strains. Moreover, we unraveled the PAMs populations marked by expressions of the IFI16 and CD163, respectively, which produce high levels of interferon-stimulated genes (ISGs) and IL18 to regulate the host response to different virulent ASFV strains. Collectively, our data provide insights into the complex host-virus interactions with various ASFV strain infections, which may shed light on the development of effective antiviral strategies.IMPORTANCEThere is still no available research on the temporal transcriptional profile of host cells exposed to different virulent ASFV strains at the single-cell level. Here, we first profiled the temporal viral and host transcriptomes in PAMs exposed to high virulent, attenuated virulent, and low virulent ASFV strains. Our analysis revealed that attenuated and low-virulence ASFV strains tend to exhibit higher viral loads than highly virulent strains, which may result from upregulated RNA polymerase subunit genes expression. We also found a positive feedback loop of the interferon signaling pathway mediated through IRF7 and identified the populations of PAMs marked by IFI6 and CD163, respectively, which produce high levels of ISGs and IL18 to regulate host response to different virulent ASFV strains. Our study delineated a comprehensive single-cell landscape of host-virus dynamics across ASFV strains with different virulences and would provide an important resource for future research.",
+  },
+  {
+    authors:
       "You, N., Liu, C., Gu, Y., Wang, R., Jia, H., Zhang, T., Jiang, S., Shi, J., Chen, M., Guan, M. X., Sun, S., Pei, S., Liu, Z. *, & <b>Shen, N. </b>* (2024).",
     title:
       "SpliceTransformer predicts tissue-specific splicing linked to human diseases.",
