@@ -15,7 +15,32 @@
       "email": "564210216@qq.com"
     }
   ],
-  "worker2": [],
+  "worker2": [
+    {
+      "name": "Zhiyu Wen",
+      "class": "Research Assistant",
+      "photo": "/images/photo/person/zhiyu.jpeg",
+      "email": "1550582610@qq.com"
+    },
+    {
+      "name": "Yining Liu",
+      "class": "Research Assistant",
+      "photo": "/images/photo/person/yining.jpeg",
+      "email": "liuyining715@163.com"
+    },
+    {
+      "name": "Wei Wang",
+      "class": "Research Assistant",
+      "photo": "/images/photo/person/weiwang.jpeg",
+      "email": "2684811683@qq.com"
+    },
+    {
+      "name": "Yunjie Yan",
+      "class": "Research Assistant",
+      "photo": "/images/photo/person/yunjie.jpeg",
+      "email": "s84715932@gmail.com"
+    }
+  ],
   "student1": [
     {
       "name": "Lin Lv",
@@ -40,6 +65,12 @@
       "class": "Postdoc",
       "photo": "/images/photo/person/zanting.jpg",
       "email": "2990842436@qq.com"
+    },
+    {
+      "name": "Jia Chen",
+      "class": "Postdoc",
+      "photo": "/images/photo/person/chenjia.jpeg",
+      "email": "chenjia2020@zju.edu.cn"
     }
   ],
   "student2": [
@@ -72,9 +103,40 @@
       "class": "PhD student",
       "photo": "/images/photo/person/yicheng.jpg",
       "email": "yichengliu@zju.edu.cn"
+    },
+    {
+      "name": "Jing He",
+      "class": "PhD student",
+      "photo": "/images/photo/person/hejing.jpeg",
+      "email": "hejing011013@163.com"
+    },
+    {
+      "name": "Yingxin Xie",
+      "class": "PhD student",
+      "photo": "/images/photo/person/yingxin.jpeg",
+      "email": "2939762537@qq.com"
+    },
+    {
+      "name": "Yu Yan",
+      "class": "PhD student",
+      "photo": "/images/photo/person/yanyu.jpeg",
+      "email": "12518853@zju.edu.cn"
     }
   ],
-  "student3": [],
+  "student3": [
+    {
+      "name": "Yingxian Zhang",
+      "class": "Master student",
+      "photo": "/images/photo/person/yingxian.jpeg",
+      "email": "yingxian.25@intl.zju.edu.cn"
+    },
+    {
+      "name": "Lefan Cai",
+      "class": "Master student",
+      "photo": "/images/photo/person/lefan.jpeg",
+      "email": "lefan0614@qq.com"
+    }
+  ],
   "former_student": [
     {
       "name": "Md Asif Ahsan"
