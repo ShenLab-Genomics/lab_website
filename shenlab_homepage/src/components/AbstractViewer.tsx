@@ -12,12 +12,14 @@ const AbstractViewer = ({
   journal,
   abstract,
   url,
+  highlight,
 }: {
   title: string;
   authors: string;
   abstract: string;
   journal: string;
   url: string;
+  highlight?: boolean;
 }) => {
   const [open, setOpen] = useState(false);
 
@@ -35,7 +37,7 @@ const AbstractViewer = ({
   return (
     <>
       <div className={styles.row}>
-        <li>
+        <li className={highlight ? styles.highlight : ""}>
           <span dangerouslySetInnerHTML={{ __html: authors }}></span>{" "}
           <span dangerouslySetInnerHTML={{ __html: title }}></span>{" "}
           <span dangerouslySetInnerHTML={{ __html: journal }}></span>{" "}

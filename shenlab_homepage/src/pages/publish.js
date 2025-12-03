@@ -16,17 +16,38 @@ const conference_Proceedings = [
 const _articles = [
   {
     authors:
-      "Jiang, S.#, Jia, H.#, Hou, Q.#, Jin, L.#, Ahsan, M. A.#, Li, G., Guan, T., Zhao, J., Liu, Z., Xie, J., Cheng, H., Hao, C., Wan, J., Ni, Z., Wang, N., Shi, J., Zheng, C., Zhang, R., Yan, D., Chen, H., Jia, W.*, <b>Shen, N.</b>*, Hu, C.*, Liu, Z.* (2025).",
+      "<b>You, N.</b>, <b>Liu, C.</b>, Lin, H., Wu, S., Chen, G., & <b>Shen, N.</b> *(2025).",
+    title:
+      "Benchmarking pre-trained genomic language models for RNA sequence-related predictive applications.",
+    journal: "<b>Nature Communications</b>",
+    year: 2025,
+    abstract: "",
+    highlight: true,
+  },
+  {
+    authors:
+      "<b>Liu, Y.#</b>, Wu, S., <b>Zhang, T.</b>, Yao, C., <b>Shen, N.*</b> (2025).",
+    title:
+      "CycSeq: Leveraging cyclic data  generation for accurate perturbation prediction in single-cell RNA-seq.",
+    journal:
+      "<b>Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI-25), 1031</b>",
+    year: 2025,
+    abstract: "",
+    highlight: true,
+  },
+  {
+    authors:
+      "Jiang, S.#, <b>Jia, H.#</b>, Hou, Q.#, Jin, L.#, <b>Ahsan, M. A.#</b>, Li, G., Guan, T., Zhao, J., Liu, Z., Xie, J., Cheng, H., Hao, C., Wan, J., Ni, Z., Wang, N., Shi, J., Zheng, C., Zhang, R., Yan, D., Chen, H., Jia, W.*, <b>Shen, N.</b>*, Hu, C.*, Liu, Z.* (2025).",
     title:
       "Multimodal analysis stratifies the genetic susceptibility and reveals the pathogenic mechanism of kidney injury in diabeticnephropathy",
-    journal: "<b>Cell reports medicine (Accepted)</b>",
+    journal: "<b>Cell reports medicine</b>",
     link: "https://www.nature.com/articles/s41467-024-53088-6",
     year: 2025,
     abstract: "",
   },
   {
     authors:
-      "Zhao, X., Zhang, Y., Jia, H., Lv, L., Ahsan, M. A., Fu, X., Hu, R., Shen, Z., & <b>Shen, N.</b>* (2025).",
+      "<b>Zhao, X.</b>, <b>Zhang, Y.</b>, <b>Jia, H.</b>, <b>Lv, L.</b>, <b>Ahsan, M. A.</b>, Fu, X., Hu, R., Shen, Z., & <b>Shen, N.</b>* (2025).",
     title:
       "Diversities of African swine fever virus host-virus dynamics revealed by single-cell profiling",
     journal: "<b>Journal of Virology</b>",
@@ -37,7 +58,7 @@ const _articles = [
   },
   {
     authors:
-      "You, N., Liu, C., Gu, Y., Wang, R., Jia, H., Zhang, T., Jiang, S., Shi, J., Chen, M., Guan, M. X., Sun, S., Pei, S., Liu, Z. *, & <b>Shen, N. </b>* (2024).",
+      "<b>You, N.</b>, <b>Liu, C.</b>, Gu, Y., Wang, R., <b>Jia, H.</b>, <b>Zhang, T.</b>, Jiang, S., Shi, J., Chen, M., Guan, M. X., Sun, S., Pei, S., Liu, Z. *, & <b>Shen, N. </b>* (2024).",
     title:
       "SpliceTransformer predicts tissue-specific splicing linked to human diseases.",
     journal: "<b>Nature Communications</b>",
@@ -48,7 +69,7 @@ const _articles = [
   },
   {
     authors:
-      "Wang, H.*, Jing, H., Yang, J., Liu, C., Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
+      "Wang, H.*, Jing, H., Yang, J., <b>Liu, C.</b>, Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
     title:
       "Identifying autism spectrum disorder from multi-modal data with privacy-preserving.",
     journal: "<b>Npj mental health research</b>,3(1), 15",
@@ -352,6 +373,7 @@ const Publish = () => (
             journal={item.journal}
             abstract={item.abstract}
             url={item.link}
+            highlight={item.highlight}
             key={idx}
           />
         ))}

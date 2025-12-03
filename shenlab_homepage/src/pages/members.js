@@ -40,14 +40,6 @@ const Members = (props) => (
           </Grid>
         ))}
       </Grid>
-      <h2>Technicians</h2>
-      <Grid container columnSpacing={2} rowSpacing={0}>
-        {props.ra.map((item, index) => (
-          <Grid item xs={3} key={index}>
-            <PersonInfoSmall props={item} />
-          </Grid>
-        ))}
-      </Grid>
       <h2>Postdocs</h2>
       <Grid container columnSpacing={2} rowSpacing={0}>
         {props.postdocs.map((item, index) => (
@@ -76,11 +68,48 @@ const Members = (props) => (
           </Grid>
         </>
       )}
-      <h2>Former Members</h2>
+      <h2>Research Assistants</h2>
       <Grid container columnSpacing={2} rowSpacing={0}>
+        {props.ra.map((item, index) => (
+          <Grid item xs={3} key={index}>
+            <PersonInfoSmall props={item} />
+          </Grid>
+        ))}
+      </Grid>
+      <h2>Former Members</h2>
+      <Grid container columnSpacing={4} rowSpacing={0}>
         {props.former.map((item, index) => (
           <Grid item xs={3} key={index}>
-            <h3>{item.name}</h3>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <p
+                style={{
+                  margin: 0,
+                  marginBottom: "2px",
+                  fontSize: "1.1rem",
+                  fontWeight: 600,
+                }}
+              >
+                {item.name}
+              </p>
+              {item.description && (
+                <p
+                  style={{
+                    margin: 0,
+                    fontSize: "0.9rem",
+                    color: "#222",
+                    lineHeight: 1.4,
+                  }}
+                >
+                  {item.description}
+                </p>
+              )}
+            </div>
           </Grid>
         ))}
       </Grid>

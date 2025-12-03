@@ -55,12 +55,6 @@
       "email": "yagao_liu@outlook.com"
     },
     {
-      "name": "Yi Wang",
-      "class": "Postdoc",
-      "photo": "/images/photo/person/wangyi.jpg",
-      "email": "17342015832@163.com"
-    },
-    {
       "name": "Ting Zan",
       "class": "Postdoc",
       "photo": "/images/photo/person/zanting.jpg",
@@ -74,18 +68,6 @@
     }
   ],
   "student2": [
-    {
-      "name": "Hanying Jia",
-      "class": "PhD student",
-      "photo": "/images/photo/person/hanying3.jpg",
-      "email": "452182628@qq.com"
-    },
-    {
-      "name": "Xiaoyang Zhao",
-      "class": "PhD student",
-      "photo": "/images/photo/person/xiaoyang.jpeg",
-      "email": "376357153@qq.com"
-    },
     {
       "name": "Ningyuan You",
       "class": "PhD student",
@@ -161,6 +143,18 @@
     },
     {
       "name": "Dandan Hu"
+    },
+    {
+      "name": "Hanying Jia",
+      "description": "Enrolled in Ph.D. program in September 2021, graduated in August 2025, now serves as a clinical physician at the Institute of Nephrology, Nanjing General Hospital."
+    },
+    {
+      "name": "Xiaoyang Zhao",
+      "description": "Enrolled in Ph.D. program in September 2021, graduated in June 2025, currently works as a clinical orthopedist at Chongqing Xinqiao Hospital."
+    },
+    {
+      "name": "Yi Wang",
+      "description": "Joined as postdoctoral fellow in October 2023, completed service in October 2025, now holds position of assistant researcher at Westlake University."
     }
   ]
 }

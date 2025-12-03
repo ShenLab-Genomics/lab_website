@@ -7,6 +7,20 @@
     "link": ""
   },
   {
+    "url": "/images/figure/MultimodalAnalysis.png",
+    "type": "figure",
+    "title": "Multimodal analysis stratifies the genetic susceptibility and reveals the pathogenic mechanism of kidney injury in diabeticnephropathy",
+    "text": "Hanying et al. uncovered genetic susceptibility and pathogenic mechanisms of kidney injury in diabetic nephropathy through multimodal analysis, providing new directions for precision diagnosis and treatment.",
+    "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(25)00322-2"
+  },
+  {
+    "url": "/images/figure/CysSeq.png",
+    "type": "figure",
+    "title": "CycSeq: Leveraging Cyclic Data Generation for Accurate Perturbation Prediction in Single-Cell RNA-Seq",
+    "text": "Yi Cheng et al. proposed a cyclic data generation approach to improve the accuracy of perturbation prediction in single-cell RNA sequencing.",
+    "link": "https://dl.acm.org/doi/abs/10.24963/ijcai.2025/1031"
+  },
+  {
     "url": "/images/figure/SpTransformer.png",
     "type": "figure",
     "title": "SpliceTransformer predicts tissue-specific splicing linked to human diseases",
