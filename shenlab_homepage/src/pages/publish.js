@@ -69,7 +69,7 @@ const _articles = [
   },
   {
     authors:
-      "Wang, H.*, Jing, H., Yang, J., <b>Liu, C.</b>, Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
+      "Wang, H.*, Jing, H., Yang, J., Liu, C., Hu, L., Tao, G., Zhao, Z.*, & <b>Shen, N.</b>* (2024).",
     title:
       "Identifying autism spectrum disorder from multi-modal data with privacy-preserving.",
     journal: "<b>Npj mental health research</b>,3(1), 15",
@@ -91,7 +91,7 @@ const _articles = [
   },
   {
     authors:
-      "Yuan, X. #, Wang, H. #, Sun, Z. #, Zhou, C., Chu, S. C., Bu, J., <b>Shen, N.</b> (2024)",
+      "<b>Yuan, X.</b> #, Wang, H. #, Sun, Z. #, Zhou, C., Chu, S. C., Bu, J., <b>Shen, N.</b> (2024)",
     title:
       "Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data.",
     journal: "<b>Cell reports methods</b>, 4, 100733.",
@@ -102,7 +102,7 @@ const _articles = [
   },
   {
     authors:
-      "Zhang, L. #, Zhao, J. #, Lam, S. M. #, Chen, L. #, Gao, Y. #, Wang, W. #, Xu, Y., Tan, T., Yu, H., Zhang, M., Liao, X., Wu, M., Zhang, T., Huang, J., Li, B., Zhou, Q. D., <b>Shen, N.</b>, Lee, H. J., Ye, C., Li, D. *, … Zhang, J. * (2024)",
+      "Zhang, L. #, Zhao, J. #, Lam, S. M. #, Chen, L. #, Gao, Y. #, Wang, W. #, <b>Xu, Y.</b>, Tan, T., Yu, H., Zhang, M., Liao, X., Wu, M., <b>Zhang, T.</b>, Huang, J., Li, B., Zhou, Q. D., <b>Shen, N.</b>, Lee, H. J., Ye, C., Li, D. *, … Zhang, J. * (2024)",
     title:
       "Low-input lipidomics reveals lipid metabolism remodelling during early mammalian embryo development.",
     journal: "<b>Nature cell biology</b>, 26(2), 278–293.",
@@ -113,7 +113,7 @@ const _articles = [
   },
   {
     authors:
-      "Liu, Y. #, Zhang, T. #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).",
+      "<b>Liu, Y.</b> #, <b>Zhang, T.</b> #, You, N., Wu, S. *, & <b>Shen, N.*</b> (2024).",
     title:
       "MAGPIE: accurate pathogenic prediction for multiple variant types using machine learning approach.",
     journal: "<b>Genome medicine</b>,16(1),3.",
@@ -124,7 +124,7 @@ const _articles = [
   },
   {
     authors:
-      "Zhang, T., Jia, H., Song, T., Lv, L., Gulhan, D. C., Wang, H., Guo, W., Xi, R., Guo, H., & <b>Shen, N.</b> (2023).",
+      "<b>Zhang, T.</b>, <b>Jia, H.</b>, <b>Song, T.</b>, <b>Lv, L.</b>, Gulhan, D. C., Wang, H., Guo, W., Xi, R., Guo, H., & <b>Shen, N.</b> (2023).",
     title:
       "De novo identification of expressed cancer somatic mutations from single-cell RNA sequencing data.",
     journal: "<b>Genome medicine</b>, 15(1), 115.",
@@ -135,7 +135,7 @@ const _articles = [
   },
   {
     authors:
-      "Wu, L., Wang, H., Chen, Y., Zhang, X., Zhang, T., <b>Shen, N.</b>, Tao, G., Sun, Z., Ding, Y. *, Wang, W. *, & Bu, J. * (2023).",
+      "Wu, L., Wang, H., Chen, Y., Zhang, X., <b>Zhang, T.</b>, <b>Shen, N.</b>, Tao, G., Sun, Z., Ding, Y. *, Wang, W. *, & Bu, J. * (2023).",
     title:
       "Beyond radiologist-level liver lesion detection on multi-phase contrast-enhanced CT images by deep learning.",
     journal: "<b>iScience, 26(11)<b>, 108183.",
@@ -146,7 +146,7 @@ const _articles = [
   },
   {
     authors:
-      "Lv, L. #, Zhang, T. #, Jia, H., Zhang, Y., Ahsan, A., Zhao, X., Chen, T. *, Shen, Z. *, & <b>Shen, N.</b> * (2022).",
+      "<b>Lv, L.</b> #, <b>Zhang, T.</b> #, <b>Jia, H.</b>, Zhang, Y., <b>Ahsan, A.</b>, <b>Zhao, X.</b>, Chen, T. *, Shen, Z. *, & <b>Shen, N.</b> * (2022).",
     title:
       "Temporally integrated transcriptome analysis reveals ASFV pathology and host response dynamics.",
     journal: "<b>Frontiers in immunology</b>, 13, 995998.",

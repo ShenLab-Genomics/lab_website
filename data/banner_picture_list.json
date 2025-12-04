@@ -14,6 +14,13 @@
     "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(25)00322-2"
   },
   {
+    "url": "/images/figure/Benchmark.png",
+    "type": "figure",
+    "title": "Benchmarking Pre-trained Genomic Language Models for RNA Sequence-Related Predictive Applications",
+    "text": "Ningyuan et al. developed a unified benchmark to assess 11 pretrained gLMs across four RNA tasks. Their results show that data–algorithm synergy outweighs model scale, offering practical guidance for RNA analysis. Multi-metric and ablation studies highlight gLM advantages in low-data and long-context settings and inform model selection.",
+    "link": ""
+  },
+  {
     "url": "/images/figure/CysSeq.png",
     "type": "figure",
     "title": "CycSeq: Leveraging Cyclic Data Generation for Accurate Perturbation Prediction in Single-Cell RNA-Seq",

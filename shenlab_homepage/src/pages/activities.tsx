@@ -15,6 +15,9 @@ const piclist = [
   "/images/photo/photo2207x2.jpg",
   "/images/activities/p7.jpg",
   "/images/activities/p8.jpg",
+  "/images/activities/p9.jpeg",
+  "/images/activities/p10.jpg",
+  "/images/activities/p11.jpeg",
 ];
 const Activities: NextPage = () => (
   <Layout>
