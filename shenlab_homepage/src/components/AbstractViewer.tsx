@@ -37,7 +37,7 @@ const AbstractViewer = ({
   return (
     <>
       <div className={styles.row}>
-        <li className={highlight ? styles.highlight : ""}>
+        <li>
           <span dangerouslySetInnerHTML={{ __html: authors }}></span>{" "}
           <span dangerouslySetInnerHTML={{ __html: title }}></span>{" "}
           <span dangerouslySetInnerHTML={{ __html: journal }}></span>{" "}
